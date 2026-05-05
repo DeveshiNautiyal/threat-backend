@@ -1,0 +1,3986 @@
+{
+  "metrics": {
+    "total_users": 1000,
+    "total_alerts": 49872,
+    "high_risk_count": 7271,
+    "medium_risk_count": 42601,
+    "low_risk_count": 0,
+    "detection_accuracy": 0.85,
+    "mean_baseline_score": 0.36015123718868897,
+    "mean_meta_score": 0.6159345125401237,
+    "mean_fused_score": 0.4880428748644064
+  },
+  "alerts": [
+    {
+      "alert_id": "ALR_00014699",
+      "user": "EIS0041",
+      "date": "2010-06-21",
+      "baseline_score": 0.8943851565862349,
+      "meta_score": 0.636133886309876,
+      "fused_score": 0.7652595214480554,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.724087"
+    },
+    {
+      "alert_id": "ALR_00001673",
+      "user": "AJF0370",
+      "date": "2011-04-12",
+      "baseline_score": 0.8465326637306668,
+      "meta_score": 0.6114721044989391,
+      "fused_score": 0.729002384114803,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.608249"
+    },
+    {
+      "alert_id": "ALR_00004139",
+      "user": "BAL0044",
+      "date": "2010-03-12",
+      "baseline_score": 0.8277800245020143,
+      "meta_score": 0.6285463947169567,
+      "fused_score": 0.7281632096094854,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.629293"
+    },
+    {
+      "alert_id": "ALR_00001646",
+      "user": "AJF0370",
+      "date": "2011-02-25",
+      "baseline_score": 0.8277800245020143,
+      "meta_score": 0.6281778912596727,
+      "fused_score": 0.7279789578808435,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.608249"
+    },
+    {
+      "alert_id": "ALR_00027458",
+      "user": "KCF0045",
+      "date": "2010-01-04",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6406192219346214,
+      "fused_score": 0.7259890019911914,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.864009"
+    },
+    {
+      "alert_id": "ALR_00022058",
+      "user": "IBB0359",
+      "date": "2010-12-01",
+      "baseline_score": 0.8277800245020143,
+      "meta_score": 0.6237548530786101,
+      "fused_score": 0.7257674387903121,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.812337"
+    },
+    {
+      "alert_id": "ALR_00001618",
+      "user": "AJF0370",
+      "date": "2010-12-23",
+      "baseline_score": 0.8277800245020143,
+      "meta_score": 0.6224239851508407,
+      "fused_score": 0.7251020048264275,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.608249"
+    },
+    {
+      "alert_id": "ALR_00026674",
+      "user": "JRS0362",
+      "date": "2010-01-11",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6366942496880416,
+      "fused_score": 0.7240265158679015,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.857484"
+    },
+    {
+      "alert_id": "ALR_00019600",
+      "user": "HDS0367",
+      "date": "2010-12-02",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6276736248389362,
+      "fused_score": 0.7195162034433488,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.794307"
+    },
+    {
+      "alert_id": "ALR_00029121",
+      "user": "KSP0357",
+      "date": "2010-05-25",
+      "baseline_score": 0.8194014541321842,
+      "meta_score": 0.6144909461401544,
+      "fused_score": 0.7169462001361693,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.878066"
+    },
+    {
+      "alert_id": "ALR_00028007",
+      "user": "KJP0371",
+      "date": "2010-07-19",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6215633174173638,
+      "fused_score": 0.7164610497325625,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.867516"
+    },
+    {
+      "alert_id": "ALR_00013357",
+      "user": "DMG0358",
+      "date": "2010-01-19",
+      "baseline_score": 0.8028411234557882,
+      "meta_score": 0.6285751944154123,
+      "fused_score": 0.7157081589356002,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.703577"
+    },
+    {
+      "alert_id": "ALR_00048411",
+      "user": "WPR0368",
+      "date": "2011-03-10",
+      "baseline_score": 0.8222787167746768,
+      "meta_score": 0.6087985273201965,
+      "fused_score": 0.7155386220474367,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:03.028079"
+    },
+    {
+      "alert_id": "ALR_00013403",
+      "user": "DMG0358",
+      "date": "2010-07-02",
+      "baseline_score": 0.8222787167746768,
+      "meta_score": 0.6087063899243361,
+      "fused_score": 0.7154925533495065,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.703577"
+    },
+    {
+      "alert_id": "ALR_00045692",
+      "user": "TSM0363",
+      "date": "2010-12-27",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6176934850324223,
+      "fused_score": 0.7145261335400919,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:03.005061"
+    },
+    {
+      "alert_id": "ALR_00046352",
+      "user": "UIR0043",
+      "date": "2010-11-01",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6161384883513781,
+      "fused_score": 0.7137486351995697,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:03.011062"
+    },
+    {
+      "alert_id": "ALR_00021823",
+      "user": "HWY0038",
+      "date": "2010-05-18",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6148308792922171,
+      "fused_score": 0.7130948306699892,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.810830"
+    },
+    {
+      "alert_id": "ALR_00026693",
+      "user": "JRS0362",
+      "date": "2010-04-12",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6138390250196784,
+      "fused_score": 0.7125989035337199,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.857484"
+    },
+    {
+      "alert_id": "ALR_00028004",
+      "user": "KJP0371",
+      "date": "2010-06-22",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6137847156774235,
+      "fused_score": 0.7125717488625924,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.867516"
+    },
+    {
+      "alert_id": "ALR_00013395",
+      "user": "DMG0358",
+      "date": "2010-05-18",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6125041267566195,
+      "fused_score": 0.7119314544021904,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.703577"
+    },
+    {
+      "alert_id": "ALR_00029051",
+      "user": "KRV0372",
+      "date": "2011-03-25",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6114682770800799,
+      "fused_score": 0.7114135295639206,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.877065"
+    },
+    {
+      "alert_id": "ALR_00045678",
+      "user": "TSM0363",
+      "date": "2010-09-27",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6095063995425188,
+      "fused_score": 0.7104325907951401,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:03.005061"
+    },
+    {
+      "alert_id": "ALR_00038756",
+      "user": "QNP0216",
+      "date": "2010-04-26",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.608867933661481,
+      "fused_score": 0.7101133578546212,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.950195"
+    },
+    {
+      "alert_id": "ALR_00045707",
+      "user": "TSM0363",
+      "date": "2011-03-22",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6084040985528197,
+      "fused_score": 0.7098814403002905,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:03.005061"
+    },
+    {
+      "alert_id": "ALR_00033624",
+      "user": "MNS0224",
+      "date": "2011-02-01",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6071485115246178,
+      "fused_score": 0.7092536467861896,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.912620"
+    },
+    {
+      "alert_id": "ALR_00005807",
+      "user": "BKW0374",
+      "date": "2010-04-20",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6069199182376899,
+      "fused_score": 0.7091393501427257,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.643314"
+    },
+    {
+      "alert_id": "ALR_00034365",
+      "user": "MSH0040",
+      "date": "2010-09-13",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6063281471514608,
+      "fused_score": 0.7088434645996111,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.917621"
+    },
+    {
+      "alert_id": "ALR_00026739",
+      "user": "JRS0362",
+      "date": "2011-02-11",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6053751481704815,
+      "fused_score": 0.7083669651091214,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.858474"
+    },
+    {
+      "alert_id": "ALR_00028000",
+      "user": "KJP0371",
+      "date": "2010-05-25",
+      "baseline_score": 0.8113587820477614,
+      "meta_score": 0.6044309597101896,
+      "fused_score": 0.7078948708789754,
+      "risk_level": "CRITICAL",
+      "timestamp": "2026-05-04T17:31:02.867516"
+    },
+    {
+      "alert_id": "ALR_00008255",
+      "user": "CCA0046",
+      "date": "2010-06-04",
+      "baseline_score": 0.7365266179806843,
+      "meta_score": 0.6346251438256264,
+      "fused_score": 0.6855758809031554,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.661493"
+    },
+    {
+      "alert_id": "ALR_00025702",
+      "user": "JLM0364",
+      "date": "2010-03-11",
+      "baseline_score": 0.7225957403429993,
+      "meta_score": 0.6209698463132503,
+      "fused_score": 0.6717827933281248,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.849959"
+    },
+    {
+      "alert_id": "ALR_00025139",
+      "user": "JGT0221",
+      "date": "2010-01-20",
+      "baseline_score": 0.7225957403429993,
+      "meta_score": 0.6195443459662173,
+      "fused_score": 0.6710700431546084,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.844961"
+    },
+    {
+      "alert_id": "ALR_00022102",
+      "user": "IBB0359",
+      "date": "2011-04-29",
+      "baseline_score": 0.7037708133386519,
+      "meta_score": 0.6331977326551869,
+      "fused_score": 0.6684842729969194,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.812337"
+    },
+    {
+      "alert_id": "ALR_00034435",
+      "user": "MSO0222",
+      "date": "2010-10-05",
+      "baseline_score": 0.7225957403429993,
+      "meta_score": 0.6080585542108573,
+      "fused_score": 0.6653271472769283,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.919128"
+    },
+    {
+      "alert_id": "ALR_00001452",
+      "user": "AJF0370",
+      "date": "2010-03-29",
+      "baseline_score": 0.6565022969146806,
+      "meta_score": 0.6426620582167665,
+      "fused_score": 0.6495821775657236,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.607250"
+    },
+    {
+      "alert_id": "ALR_00014688",
+      "user": "EIS0041",
+      "date": "2010-05-19",
+      "baseline_score": 0.6565022969146806,
+      "meta_score": 0.6410116885831105,
+      "fused_score": 0.6487569927488956,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.724087"
+    },
+    {
+      "alert_id": "ALR_00001621",
+      "user": "AJF0370",
+      "date": "2011-01-05",
+      "baseline_score": 0.6651892372002525,
+      "meta_score": 0.6298305310464373,
+      "fused_score": 0.6475098841233449,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.608249"
+    },
+    {
+      "alert_id": "ALR_00001451",
+      "user": "AJF0370",
+      "date": "2010-03-27",
+      "baseline_score": 0.6651892372002525,
+      "meta_score": 0.6275793670307267,
+      "fused_score": 0.6463843021154896,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.607250"
+    },
+    {
+      "alert_id": "ALR_00001692",
+      "user": "AJF0370",
+      "date": "2011-05-16",
+      "baseline_score": 0.648970694639733,
+      "meta_score": 0.6426524719725303,
+      "fused_score": 0.6458115833061316,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.608249"
+    },
+    {
+      "alert_id": "ALR_00014693",
+      "user": "EIS0041",
+      "date": "2010-06-09",
+      "baseline_score": 0.6267217546863396,
+      "meta_score": 0.65583898426898,
+      "fused_score": 0.6412803694776599,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.724087"
+    },
+    {
+      "alert_id": "ALR_00001690",
+      "user": "AJF0370",
+      "date": "2011-05-10",
+      "baseline_score": 0.6482506564264052,
+      "meta_score": 0.6336841430718372,
+      "fused_score": 0.6409673997491212,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.608249"
+    },
+    {
+      "alert_id": "ALR_00019630",
+      "user": "HDS0367",
+      "date": "2011-02-18",
+      "baseline_score": 0.6565022969146806,
+      "meta_score": 0.6218173298908583,
+      "fused_score": 0.6391598134027694,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.795306"
+    },
+    {
+      "alert_id": "ALR_00019546",
+      "user": "HDS0367",
+      "date": "2010-06-04",
+      "baseline_score": 0.6397723670561175,
+      "meta_score": 0.6330587711133054,
+      "fused_score": 0.6364155690847115,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.770157"
+    },
+    {
+      "alert_id": "ALR_00034144",
+      "user": "MPM0220",
+      "date": "2010-08-11",
+      "baseline_score": 0.6040603269990737,
+      "meta_score": 0.6673466311122489,
+      "fused_score": 0.6357034790556613,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.916621"
+    },
+    {
+      "alert_id": "ALR_00022069",
+      "user": "IBB0359",
+      "date": "2011-01-07",
+      "baseline_score": 0.6353945874107213,
+      "meta_score": 0.6352630291980649,
+      "fused_score": 0.6353288083043931,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.812337"
+    },
+    {
+      "alert_id": "ALR_00004252",
+      "user": "BAL0044",
+      "date": "2011-02-11",
+      "baseline_score": 0.6502191525241013,
+      "meta_score": 0.6202683448594829,
+      "fused_score": 0.6352437486917921,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.629293"
+    },
+    {
+      "alert_id": "ALR_00004270",
+      "user": "BAL0044",
+      "date": "2011-03-25",
+      "baseline_score": 0.6565022969146806,
+      "meta_score": 0.6137586462551944,
+      "fused_score": 0.6351304715849375,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.629293"
+    },
+    {
+      "alert_id": "ALR_00014737",
+      "user": "EIS0041",
+      "date": "2010-09-21",
+      "baseline_score": 0.6160034452495609,
+      "meta_score": 0.6538996924432979,
+      "fused_score": 0.6349515688464293,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.725087"
+    },
+    {
+      "alert_id": "ALR_00014741",
+      "user": "EIS0041",
+      "date": "2010-09-28",
+      "baseline_score": 0.6249740005286657,
+      "meta_score": 0.6441851927939478,
+      "fused_score": 0.6345795966613068,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.725087"
+    },
+    {
+      "alert_id": "ALR_00014747",
+      "user": "EIS0041",
+      "date": "2010-10-19",
+      "baseline_score": 0.6249740005286657,
+      "meta_score": 0.6435275717970677,
+      "fused_score": 0.6342507861628667,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.725087"
+    },
+    {
+      "alert_id": "ALR_00022103",
+      "user": "IBB0359",
+      "date": "2011-05-03",
+      "baseline_score": 0.6224022722321827,
+      "meta_score": 0.6455951293995615,
+      "fused_score": 0.6339987008158721,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.812337"
+    },
+    {
+      "alert_id": "ALR_00022041",
+      "user": "IBB0359",
+      "date": "2010-10-19",
+      "baseline_score": 0.6249740005286657,
+      "meta_score": 0.6423186589596755,
+      "fused_score": 0.6336463297441706,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.810830"
+    },
+    {
+      "alert_id": "ALR_00001499",
+      "user": "AJF0370",
+      "date": "2010-06-09",
+      "baseline_score": 0.6353945874107213,
+      "meta_score": 0.6318791533138236,
+      "fused_score": 0.6336368703622725,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.607250"
+    },
+    {
+      "alert_id": "ALR_00014713",
+      "user": "EIS0041",
+      "date": "2010-07-29",
+      "baseline_score": 0.6267217546863396,
+      "meta_score": 0.6402633354960103,
+      "fused_score": 0.633492545091175,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.725087"
+    },
+    {
+      "alert_id": "ALR_00001524",
+      "user": "AJF0370",
+      "date": "2010-07-22",
+      "baseline_score": 0.6397723670561175,
+      "meta_score": 0.626322054412353,
+      "fused_score": 0.6330472107342353,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.607250"
+    },
+    {
+      "alert_id": "ALR_00001481",
+      "user": "AJF0370",
+      "date": "2010-05-12",
+      "baseline_score": 0.6267217546863396,
+      "meta_score": 0.63857505309042,
+      "fused_score": 0.6326484038883797,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.607250"
+    },
+    {
+      "alert_id": "ALR_00009866",
+      "user": "CLB0774",
+      "date": "2010-02-16",
+      "baseline_score": 0.6249740005286657,
+      "meta_score": 0.6401053912540162,
+      "fused_score": 0.632539695891341,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.675567"
+    },
+    {
+      "alert_id": "ALR_00014749",
+      "user": "EIS0041",
+      "date": "2010-10-21",
+      "baseline_score": 0.6267217546863396,
+      "meta_score": 0.6377838259698823,
+      "fused_score": 0.632252790328111,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.725087"
+    },
+    {
+      "alert_id": "ALR_00001639",
+      "user": "AJF0370",
+      "date": "2011-02-11",
+      "baseline_score": 0.6353945874107213,
+      "meta_score": 0.6283437589120436,
+      "fused_score": 0.6318691731613825,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.608249"
+    },
+    {
+      "alert_id": "ALR_00001604",
+      "user": "AJF0370",
+      "date": "2010-11-29",
+      "baseline_score": 0.6353945874107213,
+      "meta_score": 0.6277313518482331,
+      "fused_score": 0.6315629696294772,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.608249"
+    },
+    {
+      "alert_id": "ALR_00034831",
+      "user": "MVH0373",
+      "date": "2010-01-04",
+      "baseline_score": 0.6224022722321827,
+      "meta_score": 0.6406192219346214,
+      "fused_score": 0.631510747083402,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.921150"
+    },
+    {
+      "alert_id": "ALR_00001470",
+      "user": "AJF0370",
+      "date": "2010-04-26",
+      "baseline_score": 0.6353945874107213,
+      "meta_score": 0.6268999504141244,
+      "fused_score": 0.6311472689124229,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.607250"
+    },
+    {
+      "alert_id": "ALR_00001473",
+      "user": "AJF0370",
+      "date": "2010-04-30",
+      "baseline_score": 0.6353945874107213,
+      "meta_score": 0.6263592380497469,
+      "fused_score": 0.630876912730234,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.607250"
+    },
+    {
+      "alert_id": "ALR_00004195",
+      "user": "BAL0044",
+      "date": "2010-08-18",
+      "baseline_score": 0.6353945874107213,
+      "meta_score": 0.6260777116653705,
+      "fused_score": 0.6307361495380459,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.629293"
+    },
+    {
+      "alert_id": "ALR_00019659",
+      "user": "HDS0367",
+      "date": "2011-05-05",
+      "baseline_score": 0.6353945874107213,
+      "meta_score": 0.6255831505340508,
+      "fused_score": 0.630488868972386,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.795306"
+    },
+    {
+      "alert_id": "ALR_00022013",
+      "user": "IBB0359",
+      "date": "2010-07-30",
+      "baseline_score": 0.6267217546863396,
+      "meta_score": 0.6335923733580836,
+      "fused_score": 0.6301570640222116,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.810830"
+    },
+    {
+      "alert_id": "ALR_00001521",
+      "user": "AJF0370",
+      "date": "2010-07-16",
+      "baseline_score": 0.6353945874107213,
+      "meta_score": 0.6243307085959819,
+      "fused_score": 0.6298626480033516,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.607250"
+    },
+    {
+      "alert_id": "ALR_00001588",
+      "user": "AJF0370",
+      "date": "2010-11-04",
+      "baseline_score": 0.6353945874107213,
+      "meta_score": 0.6240304074246854,
+      "fused_score": 0.6297124974177033,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.608249"
+    },
+    {
+      "alert_id": "ALR_00034140",
+      "user": "MPM0220",
+      "date": "2010-08-05",
+      "baseline_score": 0.5938522242223534,
+      "meta_score": 0.6643155385417207,
+      "fused_score": 0.629083881382037,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.916621"
+    },
+    {
+      "alert_id": "ALR_00023798",
+      "user": "JAJ0849",
+      "date": "2010-09-03",
+      "baseline_score": 0.6160034452495609,
+      "meta_score": 0.6395210242470957,
+      "fused_score": 0.6277622347483283,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.825883"
+    },
+    {
+      "alert_id": "ALR_00027490",
+      "user": "KCF0045",
+      "date": "2010-07-14",
+      "baseline_score": 0.6359200547498908,
+      "meta_score": 0.6193829892562063,
+      "fused_score": 0.6276515220030485,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.864009"
+    },
+    {
+      "alert_id": "ALR_00022014",
+      "user": "IBB0359",
+      "date": "2010-08-02",
+      "baseline_score": 0.6172768411662672,
+      "meta_score": 0.6357820977993823,
+      "fused_score": 0.6265294694828247,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.810830"
+    },
+    {
+      "alert_id": "ALR_00004204",
+      "user": "BAL0044",
+      "date": "2010-09-15",
+      "baseline_score": 0.6353945874107213,
+      "meta_score": 0.617345511037954,
+      "fused_score": 0.6263700492243376,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.629293"
+    },
+    {
+      "alert_id": "ALR_00004193",
+      "user": "BAL0044",
+      "date": "2010-08-12",
+      "baseline_score": 0.6249740005286657,
+      "meta_score": 0.6267481142989463,
+      "fused_score": 0.6258610574138059,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.629293"
+    },
+    {
+      "alert_id": "ALR_00019562",
+      "user": "HDS0367",
+      "date": "2010-08-09",
+      "baseline_score": 0.6249740005286657,
+      "meta_score": 0.6257086627468595,
+      "fused_score": 0.6253413316377626,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.770157"
+    },
+    {
+      "alert_id": "ALR_00014722",
+      "user": "EIS0041",
+      "date": "2010-08-17",
+      "baseline_score": 0.6397723670561175,
+      "meta_score": 0.6108986257289085,
+      "fused_score": 0.6253354963925131,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.725087"
+    },
+    {
+      "alert_id": "ALR_00001415",
+      "user": "AJF0370",
+      "date": "2010-02-05",
+      "baseline_score": 0.6353945874107213,
+      "meta_score": 0.6152306189583799,
+      "fused_score": 0.6253126031845506,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.607250"
+    },
+    {
+      "alert_id": "ALR_00023923",
+      "user": "JAV0361",
+      "date": "2011-03-21",
+      "baseline_score": 0.6160034452495609,
+      "meta_score": 0.6343627961076407,
+      "fused_score": 0.6251831206786007,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.826882"
+    },
+    {
+      "alert_id": "ALR_00005395",
+      "user": "BJM0111",
+      "date": "2010-10-05",
+      "baseline_score": 0.6249740005286657,
+      "meta_score": 0.6242922383696238,
+      "fused_score": 0.6246331194491448,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.640808"
+    },
+    {
+      "alert_id": "ALR_00004243",
+      "user": "BAL0044",
+      "date": "2011-01-14",
+      "baseline_score": 0.6267217546863396,
+      "meta_score": 0.622484119366212,
+      "fused_score": 0.6246029370262758,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.629293"
+    },
+    {
+      "alert_id": "ALR_00019631",
+      "user": "HDS0367",
+      "date": "2011-02-22",
+      "baseline_score": 0.6224022722321827,
+      "meta_score": 0.626766251952965,
+      "fused_score": 0.6245842620925739,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.795306"
+    },
+    {
+      "alert_id": "ALR_00001553",
+      "user": "AJF0370",
+      "date": "2010-09-09",
+      "baseline_score": 0.6249740005286657,
+      "meta_score": 0.624172088781907,
+      "fused_score": 0.6245730446552864,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.607250"
+    },
+    {
+      "alert_id": "ALR_00008905",
+      "user": "CFM0767",
+      "date": "2011-02-18",
+      "baseline_score": 0.6249740005286657,
+      "meta_score": 0.6238421860933263,
+      "fused_score": 0.624408093310996,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.667028"
+    },
+    {
+      "alert_id": "ALR_00046305",
+      "user": "UIR0043",
+      "date": "2010-01-20",
+      "baseline_score": 0.6172768411662672,
+      "meta_score": 0.6313737094531519,
+      "fused_score": 0.6243252753097095,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:03.011062"
+    },
+    {
+      "alert_id": "ALR_00033566",
+      "user": "MNS0224",
+      "date": "2010-02-08",
+      "baseline_score": 0.625569419082296,
+      "meta_score": 0.6224030153809896,
+      "fused_score": 0.6239862172316428,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.912620"
+    },
+    {
+      "alert_id": "ALR_00021993",
+      "user": "IBB0359",
+      "date": "2010-05-28",
+      "baseline_score": 0.6353945874107213,
+      "meta_score": 0.6125678595978429,
+      "fused_score": 0.6239812235042821,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.810830"
+    },
+    {
+      "alert_id": "ALR_00019657",
+      "user": "HDS0367",
+      "date": "2011-05-03",
+      "baseline_score": 0.6249740005286657,
+      "meta_score": 0.6227298459424698,
+      "fused_score": 0.6238519232355677,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.795306"
+    },
+    {
+      "alert_id": "ALR_00027995",
+      "user": "KJP0371",
+      "date": "2010-04-29",
+      "baseline_score": 0.6160034452495609,
+      "meta_score": 0.6313838508784886,
+      "fused_score": 0.6236936480640247,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.867516"
+    },
+    {
+      "alert_id": "ALR_00048314",
+      "user": "WPR0368",
+      "date": "2010-01-19",
+      "baseline_score": 0.6160034452495609,
+      "meta_score": 0.6313737094531519,
+      "fused_score": 0.6236885773513563,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:03.027080"
+    },
+    {
+      "alert_id": "ALR_00034845",
+      "user": "MVH0373",
+      "date": "2010-03-31",
+      "baseline_score": 0.6160034452495609,
+      "meta_score": 0.6313446198810828,
+      "fused_score": 0.6236740325653218,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.921150"
+    },
+    {
+      "alert_id": "ALR_00008050",
+      "user": "CBB0365",
+      "date": "2010-03-26",
+      "baseline_score": 0.6224022722321827,
+      "meta_score": 0.6243473874532854,
+      "fused_score": 0.6233748298427341,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.658817"
+    },
+    {
+      "alert_id": "ALR_00022012",
+      "user": "IBB0359",
+      "date": "2010-07-26",
+      "baseline_score": 0.6249740005286657,
+      "meta_score": 0.6214165654899373,
+      "fused_score": 0.6231952830093015,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.810830"
+    },
+    {
+      "alert_id": "ALR_00025184",
+      "user": "JHP0583",
+      "date": "2010-03-10",
+      "baseline_score": 0.6249740005286657,
+      "meta_score": 0.6210852601605844,
+      "fused_score": 0.623029630344625,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.844961"
+    },
+    {
+      "alert_id": "ALR_00022035",
+      "user": "IBB0359",
+      "date": "2010-10-01",
+      "baseline_score": 0.6249740005286657,
+      "meta_score": 0.6203529185674515,
+      "fused_score": 0.6226634595480586,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.810830"
+    },
+    {
+      "alert_id": "ALR_00019594",
+      "user": "HDS0367",
+      "date": "2010-11-18",
+      "baseline_score": 0.6267217546863396,
+      "meta_score": 0.6181914150543872,
+      "fused_score": 0.6224565848703634,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.794307"
+    },
+    {
+      "alert_id": "ALR_00026676",
+      "user": "JRS0362",
+      "date": "2010-01-25",
+      "baseline_score": 0.625569419082296,
+      "meta_score": 0.6192306417735932,
+      "fused_score": 0.6224000304279447,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.857484"
+    },
+    {
+      "alert_id": "ALR_00005323",
+      "user": "BJM0111",
+      "date": "2010-05-13",
+      "baseline_score": 0.6160034452495609,
+      "meta_score": 0.6281311396022076,
+      "fused_score": 0.6220672924258842,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.639810"
+    },
+    {
+      "alert_id": "ALR_00034138",
+      "user": "MPM0220",
+      "date": "2010-08-03",
+      "baseline_score": 0.5856998707221034,
+      "meta_score": 0.658419658458008,
+      "fused_score": 0.6220597645900556,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.916621"
+    },
+    {
+      "alert_id": "ALR_00017626",
+      "user": "GNS0178",
+      "date": "2010-04-27",
+      "baseline_score": 0.625569419082296,
+      "meta_score": 0.6178403547133761,
+      "fused_score": 0.6217048868978361,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.750638"
+    },
+    {
+      "alert_id": "ALR_00013364",
+      "user": "DMG0358",
+      "date": "2010-02-11",
+      "baseline_score": 0.6224022722321827,
+      "meta_score": 0.6208998605107708,
+      "fused_score": 0.6216510663714767,
+      "risk_level": "HIGH",
+      "timestamp": "2026-05-04T17:31:02.703577"
+    }
+  ],
+  "user_risks": [
+    {
+      "user": "MPM0220",
+      "average_risk": 0.5626067864030391,
+      "peak_risk": 0.6357034790556613,
+      "last_alert_date": "2010-11-05",
+      "alert_count": 177,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "JGT0221",
+      "average_risk": 0.5454095707827924,
+      "peak_risk": 0.6710700431546084,
+      "last_alert_date": "2010-07-07",
+      "alert_count": 30,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "GTD0219",
+      "average_risk": 0.5429545742077369,
+      "peak_risk": 0.609570648325195,
+      "last_alert_date": "2010-06-15",
+      "alert_count": 60,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "CCA0046",
+      "average_risk": 0.5421597558244348,
+      "peak_risk": 0.6855758809031554,
+      "last_alert_date": "2010-10-15",
+      "alert_count": 95,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "MOS0047",
+      "average_risk": 0.5385021351085643,
+      "peak_risk": 0.615900418355426,
+      "last_alert_date": "2010-09-10",
+      "alert_count": 90,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "CSC0217",
+      "average_risk": 0.5375622215882756,
+      "peak_risk": 0.6034893341513656,
+      "last_alert_date": "2010-06-09",
+      "alert_count": 17,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "BBS0039",
+      "average_risk": 0.5369163328970146,
+      "peak_risk": 0.6143701776911761,
+      "last_alert_date": "2010-08-13",
+      "alert_count": 33,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "JLM0364",
+      "average_risk": 0.5365636288922994,
+      "peak_risk": 0.6717827933281248,
+      "last_alert_date": "2011-04-29",
+      "alert_count": 71,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "BSS0369",
+      "average_risk": 0.5361714516376782,
+      "peak_risk": 0.6180054522136551,
+      "last_alert_date": "2010-10-03",
+      "alert_count": 114,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "WDD0366",
+      "average_risk": 0.5327161658428531,
+      "peak_risk": 0.6074063002349174,
+      "last_alert_date": "2011-03-08",
+      "alert_count": 75,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "MSO0222",
+      "average_risk": 0.5284984420911444,
+      "peak_risk": 0.6653271472769283,
+      "last_alert_date": "2010-12-08",
+      "alert_count": 71,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "IJM0776",
+      "average_risk": 0.5282215376167272,
+      "peak_risk": 0.5981353762332418,
+      "last_alert_date": "2010-09-01",
+      "alert_count": 22,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "JTM0223",
+      "average_risk": 0.5273628750117977,
+      "peak_risk": 0.6068554230156538,
+      "last_alert_date": "2010-07-23",
+      "alert_count": 39,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "MCF0600",
+      "average_risk": 0.5257389911227799,
+      "peak_risk": 0.5966037581270397,
+      "last_alert_date": "2010-10-16",
+      "alert_count": 17,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "BDV0168",
+      "average_risk": 0.5245054778503785,
+      "peak_risk": 0.6017107791636775,
+      "last_alert_date": "2010-08-19",
+      "alert_count": 22,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "TNM0961",
+      "average_risk": 0.5235584897390015,
+      "peak_risk": 0.6033328050118978,
+      "last_alert_date": "2010-12-13",
+      "alert_count": 39,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "HJB0742",
+      "average_risk": 0.5222300066729979,
+      "peak_risk": 0.5969005900235291,
+      "last_alert_date": "2010-12-09",
+      "alert_count": 37,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "VSS0154",
+      "average_risk": 0.5219060291598813,
+      "peak_risk": 0.6018748076718881,
+      "last_alert_date": "2010-10-27",
+      "alert_count": 46,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "RKD0604",
+      "average_risk": 0.5218211881691437,
+      "peak_risk": 0.5955743455060345,
+      "last_alert_date": "2010-07-30",
+      "alert_count": 18,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "BIH0745",
+      "average_risk": 0.5202022748724539,
+      "peak_risk": 0.5978376170713455,
+      "last_alert_date": "2010-07-23",
+      "alert_count": 20,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "AKR0057",
+      "average_risk": 0.5201453695658803,
+      "peak_risk": 0.6082645892197486,
+      "last_alert_date": "2010-11-30",
+      "alert_count": 42,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "AJR0932",
+      "average_risk": 0.5198284593932448,
+      "peak_risk": 0.5975878601161735,
+      "last_alert_date": "2010-10-07",
+      "alert_count": 22,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "BKW0374",
+      "average_risk": 0.5198145550267389,
+      "peak_risk": 0.7091393501427257,
+      "last_alert_date": "2011-05-16",
+      "alert_count": 79,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "RAB0589",
+      "average_risk": 0.5197523433449367,
+      "peak_risk": 0.6082645892197486,
+      "last_alert_date": "2010-09-17",
+      "alert_count": 23,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "RHL0992",
+      "average_risk": 0.5194915286991272,
+      "peak_risk": 0.6035673958454131,
+      "last_alert_date": "2010-09-09",
+      "alert_count": 31,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "EHB0824",
+      "average_risk": 0.5188852427803023,
+      "peak_risk": 0.5190848378027233,
+      "last_alert_date": "2010-08-13",
+      "alert_count": 9,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "LJR0523",
+      "average_risk": 0.5186856477578814,
+      "peak_risk": 0.5190848378027233,
+      "last_alert_date": "2010-08-02",
+      "alert_count": 9,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "GHL0460",
+      "average_risk": 0.5186401442153182,
+      "peak_risk": 0.5190848378027233,
+      "last_alert_date": "2010-11-12",
+      "alert_count": 9,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "DCH0843",
+      "average_risk": 0.5186230406158028,
+      "peak_risk": 0.5190848378027233,
+      "last_alert_date": "2011-02-23",
+      "alert_count": 13,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "MVH0373",
+      "average_risk": 0.5183767234788466,
+      "peak_risk": 0.631510747083402,
+      "last_alert_date": "2010-03-31",
+      "alert_count": 15,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "EHD0584",
+      "average_risk": 0.5179079340891133,
+      "peak_risk": 0.5190848378027233,
+      "last_alert_date": "2010-10-15",
+      "alert_count": 18,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "FTM0406",
+      "average_risk": 0.5178855617083038,
+      "peak_risk": 0.6006857344405081,
+      "last_alert_date": "2010-12-02",
+      "alert_count": 30,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "LQC0479",
+      "average_risk": 0.5177236236227997,
+      "peak_risk": 0.5962681805403142,
+      "last_alert_date": "2010-10-06",
+      "alert_count": 31,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "TSM0363",
+      "average_risk": 0.5165453224357611,
+      "peak_risk": 0.7145261335400919,
+      "last_alert_date": "2011-05-05",
+      "alert_count": 78,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "MYD0978",
+      "average_risk": 0.5165267593942121,
+      "peak_risk": 0.5955302296650082,
+      "last_alert_date": "2010-12-08",
+      "alert_count": 35,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "BTL0226",
+      "average_risk": 0.5164106932651413,
+      "peak_risk": 0.5968854117039804,
+      "last_alert_date": "2010-10-25",
+      "alert_count": 26,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "MAS0025",
+      "average_risk": 0.515954960751966,
+      "peak_risk": 0.5958529031960684,
+      "last_alert_date": "2010-09-28",
+      "alert_count": 27,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "FMG0527",
+      "average_risk": 0.515880410255496,
+      "peak_risk": 0.6049646478137861,
+      "last_alert_date": "2011-01-24",
+      "alert_count": 14,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "RAR0725",
+      "average_risk": 0.5158053016200553,
+      "peak_risk": 0.5949840946579261,
+      "last_alert_date": "2010-08-27",
+      "alert_count": 21,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "MSH0040",
+      "average_risk": 0.5157248724059452,
+      "peak_risk": 0.7088434645996111,
+      "last_alert_date": "2011-01-06",
+      "alert_count": 54,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "LCC0819",
+      "average_risk": 0.5154033544197641,
+      "peak_risk": 0.5984646371571448,
+      "last_alert_date": "2010-08-13",
+      "alert_count": 32,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "RMW0542",
+      "average_risk": 0.5150669260488862,
+      "peak_risk": 0.5995929026265809,
+      "last_alert_date": "2010-08-18",
+      "alert_count": 40,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "AAF0535",
+      "average_risk": 0.5150419329616577,
+      "peak_risk": 0.5978037064336468,
+      "last_alert_date": "2010-08-16",
+      "alert_count": 23,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "JRS0362",
+      "average_risk": 0.514469320693393,
+      "peak_risk": 0.7240265158679015,
+      "last_alert_date": "2011-05-12",
+      "alert_count": 84,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "PSF0133",
+      "average_risk": 0.5143976588885646,
+      "peak_risk": 0.5928971569263422,
+      "last_alert_date": "2010-09-30",
+      "alert_count": 29,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "PNL0301",
+      "average_risk": 0.5143452990865369,
+      "peak_risk": 0.5955889257047122,
+      "last_alert_date": "2010-08-09",
+      "alert_count": 20,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "MAR0955",
+      "average_risk": 0.5143042328717526,
+      "peak_risk": 0.5968790026006823,
+      "last_alert_date": "2011-02-16",
+      "alert_count": 18,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "ABC0174",
+      "average_risk": 0.51426637796405,
+      "peak_risk": 0.5981353762332418,
+      "last_alert_date": "2010-12-23",
+      "alert_count": 65,
+      "risk_trend": "decreasing"
+    },
+    {
+      "user": "DRR0162",
+      "average_risk": 0.5138383157777494,
+      "peak_risk": 0.5912880774713849,
+      "last_alert_date": "2011-01-05",
+      "alert_count": 47,
+      "risk_trend": "increasing"
+    },
+    {
+      "user": "FSC0601",
+      "average_risk": 0.5137491035448435,
+      "peak_risk": 0.6023417175757202,
+      "last_alert_date": "2011-03-14",
+      "alert_count": 83,
+      "risk_trend": "decreasing"
+    }
+  ],
+  "analytics": {
+    "time_series": [
+      {
+        "date": "2010-01-02",
+        "average_risk": 0.4822623368637968,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-01-03",
+        "average_risk": 0.47038781542303926,
+        "alert_count": 6
+      },
+      {
+        "date": "2010-01-04",
+        "average_risk": 0.4961719940135467,
+        "alert_count": 169
+      },
+      {
+        "date": "2010-01-05",
+        "average_risk": 0.49440345856855983,
+        "alert_count": 131
+      },
+      {
+        "date": "2010-01-06",
+        "average_risk": 0.49371446742972264,
+        "alert_count": 147
+      },
+      {
+        "date": "2010-01-07",
+        "average_risk": 0.4972800862414115,
+        "alert_count": 154
+      },
+      {
+        "date": "2010-01-08",
+        "average_risk": 0.49163998479004134,
+        "alert_count": 158
+      },
+      {
+        "date": "2010-01-09",
+        "average_risk": 0.478498354208536,
+        "alert_count": 13
+      },
+      {
+        "date": "2010-01-10",
+        "average_risk": 0.4868590937062783,
+        "alert_count": 13
+      },
+      {
+        "date": "2010-01-11",
+        "average_risk": 0.4978907040282713,
+        "alert_count": 141
+      },
+      {
+        "date": "2010-01-12",
+        "average_risk": 0.49370544804903643,
+        "alert_count": 157
+      },
+      {
+        "date": "2010-01-13",
+        "average_risk": 0.49406699131122844,
+        "alert_count": 182
+      },
+      {
+        "date": "2010-01-14",
+        "average_risk": 0.49214303660141445,
+        "alert_count": 143
+      },
+      {
+        "date": "2010-01-15",
+        "average_risk": 0.49230659856361864,
+        "alert_count": 155
+      },
+      {
+        "date": "2010-01-16",
+        "average_risk": 0.4785077937597728,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-01-17",
+        "average_risk": 0.4743164569052912,
+        "alert_count": 8
+      },
+      {
+        "date": "2010-01-18",
+        "average_risk": 0.49244982164874757,
+        "alert_count": 152
+      },
+      {
+        "date": "2010-01-19",
+        "average_risk": 0.4925930485016655,
+        "alert_count": 161
+      },
+      {
+        "date": "2010-01-20",
+        "average_risk": 0.49296683639282696,
+        "alert_count": 178
+      },
+      {
+        "date": "2010-01-21",
+        "average_risk": 0.49165830058204274,
+        "alert_count": 138
+      },
+      {
+        "date": "2010-01-22",
+        "average_risk": 0.4907313753549893,
+        "alert_count": 149
+      },
+      {
+        "date": "2010-01-23",
+        "average_risk": 0.48971533844203463,
+        "alert_count": 14
+      },
+      {
+        "date": "2010-01-24",
+        "average_risk": 0.4809395982722953,
+        "alert_count": 12
+      },
+      {
+        "date": "2010-01-25",
+        "average_risk": 0.49233599991567784,
+        "alert_count": 146
+      },
+      {
+        "date": "2010-01-26",
+        "average_risk": 0.4918844870824623,
+        "alert_count": 152
+      },
+      {
+        "date": "2010-01-27",
+        "average_risk": 0.4906754464031831,
+        "alert_count": 151
+      },
+      {
+        "date": "2010-01-28",
+        "average_risk": 0.4913819913140341,
+        "alert_count": 167
+      },
+      {
+        "date": "2010-01-29",
+        "average_risk": 0.49221054170860606,
+        "alert_count": 159
+      },
+      {
+        "date": "2010-01-30",
+        "average_risk": 0.48596379545344615,
+        "alert_count": 10
+      },
+      {
+        "date": "2010-01-31",
+        "average_risk": 0.4941924727885243,
+        "alert_count": 17
+      },
+      {
+        "date": "2010-02-01",
+        "average_risk": 0.4932687183412255,
+        "alert_count": 151
+      },
+      {
+        "date": "2010-02-02",
+        "average_risk": 0.49083502960857167,
+        "alert_count": 147
+      },
+      {
+        "date": "2010-02-03",
+        "average_risk": 0.4919482910199736,
+        "alert_count": 172
+      },
+      {
+        "date": "2010-02-04",
+        "average_risk": 0.49228542922896523,
+        "alert_count": 154
+      },
+      {
+        "date": "2010-02-05",
+        "average_risk": 0.48944026782296823,
+        "alert_count": 154
+      },
+      {
+        "date": "2010-02-06",
+        "average_risk": 0.48856956171186794,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-02-07",
+        "average_risk": 0.477808251245682,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-02-08",
+        "average_risk": 0.49343280278023083,
+        "alert_count": 122
+      },
+      {
+        "date": "2010-02-09",
+        "average_risk": 0.4889216160693378,
+        "alert_count": 153
+      },
+      {
+        "date": "2010-02-10",
+        "average_risk": 0.4885841105269591,
+        "alert_count": 151
+      },
+      {
+        "date": "2010-02-11",
+        "average_risk": 0.4900111001008881,
+        "alert_count": 137
+      },
+      {
+        "date": "2010-02-12",
+        "average_risk": 0.4907529207745602,
+        "alert_count": 152
+      },
+      {
+        "date": "2010-02-13",
+        "average_risk": 0.4824458690095377,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-02-14",
+        "average_risk": 0.48612766552792136,
+        "alert_count": 17
+      },
+      {
+        "date": "2010-02-15",
+        "average_risk": 0.49140396525538094,
+        "alert_count": 164
+      },
+      {
+        "date": "2010-02-16",
+        "average_risk": 0.4921005299789047,
+        "alert_count": 137
+      },
+      {
+        "date": "2010-02-17",
+        "average_risk": 0.49146227301774315,
+        "alert_count": 152
+      },
+      {
+        "date": "2010-02-18",
+        "average_risk": 0.4902387462606413,
+        "alert_count": 182
+      },
+      {
+        "date": "2010-02-19",
+        "average_risk": 0.49042571181569006,
+        "alert_count": 144
+      },
+      {
+        "date": "2010-02-20",
+        "average_risk": 0.47339016755968105,
+        "alert_count": 7
+      },
+      {
+        "date": "2010-02-21",
+        "average_risk": 0.4876091181433369,
+        "alert_count": 13
+      },
+      {
+        "date": "2010-02-22",
+        "average_risk": 0.4908165986001767,
+        "alert_count": 152
+      },
+      {
+        "date": "2010-02-23",
+        "average_risk": 0.48536517486710534,
+        "alert_count": 153
+      },
+      {
+        "date": "2010-02-24",
+        "average_risk": 0.4885040989794449,
+        "alert_count": 132
+      },
+      {
+        "date": "2010-02-25",
+        "average_risk": 0.48733248677350177,
+        "alert_count": 157
+      },
+      {
+        "date": "2010-02-26",
+        "average_risk": 0.48942504807099596,
+        "alert_count": 157
+      },
+      {
+        "date": "2010-02-27",
+        "average_risk": 0.49484194252330604,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-02-28",
+        "average_risk": 0.509573362678269,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-03-01",
+        "average_risk": 0.48892145829443073,
+        "alert_count": 148
+      },
+      {
+        "date": "2010-03-02",
+        "average_risk": 0.4888716122907117,
+        "alert_count": 160
+      },
+      {
+        "date": "2010-03-03",
+        "average_risk": 0.48884761502322166,
+        "alert_count": 160
+      },
+      {
+        "date": "2010-03-04",
+        "average_risk": 0.4917721954134187,
+        "alert_count": 143
+      },
+      {
+        "date": "2010-03-05",
+        "average_risk": 0.4927262150929843,
+        "alert_count": 163
+      },
+      {
+        "date": "2010-03-06",
+        "average_risk": 0.48479448005244746,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-03-07",
+        "average_risk": 0.4794887801888154,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-03-08",
+        "average_risk": 0.4904797052592133,
+        "alert_count": 151
+      },
+      {
+        "date": "2010-03-09",
+        "average_risk": 0.48776343708280173,
+        "alert_count": 148
+      },
+      {
+        "date": "2010-03-10",
+        "average_risk": 0.4881309386036904,
+        "alert_count": 150
+      },
+      {
+        "date": "2010-03-11",
+        "average_risk": 0.48997225796955846,
+        "alert_count": 131
+      },
+      {
+        "date": "2010-03-12",
+        "average_risk": 0.4876519173492203,
+        "alert_count": 152
+      },
+      {
+        "date": "2010-03-13",
+        "average_risk": 0.4715743259025474,
+        "alert_count": 7
+      },
+      {
+        "date": "2010-03-14",
+        "average_risk": 0.49704977664227895,
+        "alert_count": 12
+      },
+      {
+        "date": "2010-03-15",
+        "average_risk": 0.4868039600613017,
+        "alert_count": 161
+      },
+      {
+        "date": "2010-03-16",
+        "average_risk": 0.48746757748167624,
+        "alert_count": 149
+      },
+      {
+        "date": "2010-03-17",
+        "average_risk": 0.48937254402180236,
+        "alert_count": 158
+      },
+      {
+        "date": "2010-03-18",
+        "average_risk": 0.4929750471407892,
+        "alert_count": 144
+      },
+      {
+        "date": "2010-03-19",
+        "average_risk": 0.49333262008671636,
+        "alert_count": 157
+      },
+      {
+        "date": "2010-03-20",
+        "average_risk": 0.46802982670346194,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-03-21",
+        "average_risk": 0.4919916533928448,
+        "alert_count": 12
+      },
+      {
+        "date": "2010-03-22",
+        "average_risk": 0.49033363535281915,
+        "alert_count": 144
+      },
+      {
+        "date": "2010-03-23",
+        "average_risk": 0.48699067922194733,
+        "alert_count": 144
+      },
+      {
+        "date": "2010-03-24",
+        "average_risk": 0.48850981543170374,
+        "alert_count": 160
+      },
+      {
+        "date": "2010-03-25",
+        "average_risk": 0.4903849928255608,
+        "alert_count": 153
+      },
+      {
+        "date": "2010-03-26",
+        "average_risk": 0.48957775384706964,
+        "alert_count": 155
+      },
+      {
+        "date": "2010-03-27",
+        "average_risk": 0.4978334031850004,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-03-28",
+        "average_risk": 0.4911756891711214,
+        "alert_count": 4
+      },
+      {
+        "date": "2010-03-29",
+        "average_risk": 0.48765727874972814,
+        "alert_count": 154
+      },
+      {
+        "date": "2010-03-30",
+        "average_risk": 0.49047925659535013,
+        "alert_count": 157
+      },
+      {
+        "date": "2010-03-31",
+        "average_risk": 0.488634830477849,
+        "alert_count": 157
+      },
+      {
+        "date": "2010-04-01",
+        "average_risk": 0.4865252268351026,
+        "alert_count": 143
+      },
+      {
+        "date": "2010-04-02",
+        "average_risk": 0.48359291799266346,
+        "alert_count": 10
+      },
+      {
+        "date": "2010-04-03",
+        "average_risk": 0.48549525649944186,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-04-04",
+        "average_risk": 0.4776771014091448,
+        "alert_count": 14
+      },
+      {
+        "date": "2010-04-05",
+        "average_risk": 0.484576713104608,
+        "alert_count": 125
+      },
+      {
+        "date": "2010-04-06",
+        "average_risk": 0.4874151570918465,
+        "alert_count": 149
+      },
+      {
+        "date": "2010-04-07",
+        "average_risk": 0.49166013656510843,
+        "alert_count": 152
+      },
+      {
+        "date": "2010-04-08",
+        "average_risk": 0.48790409931586814,
+        "alert_count": 144
+      },
+      {
+        "date": "2010-04-09",
+        "average_risk": 0.49326587065663835,
+        "alert_count": 186
+      },
+      {
+        "date": "2010-04-10",
+        "average_risk": 0.4842477288224401,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-04-11",
+        "average_risk": 0.48130516975924015,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-04-12",
+        "average_risk": 0.487463340315849,
+        "alert_count": 142
+      },
+      {
+        "date": "2010-04-13",
+        "average_risk": 0.4882627516132695,
+        "alert_count": 131
+      },
+      {
+        "date": "2010-04-14",
+        "average_risk": 0.48951707275090445,
+        "alert_count": 162
+      },
+      {
+        "date": "2010-04-15",
+        "average_risk": 0.49024031898142045,
+        "alert_count": 137
+      },
+      {
+        "date": "2010-04-16",
+        "average_risk": 0.4851214861068149,
+        "alert_count": 160
+      },
+      {
+        "date": "2010-04-17",
+        "average_risk": 0.4898263312583082,
+        "alert_count": 6
+      },
+      {
+        "date": "2010-04-18",
+        "average_risk": 0.4915126224240102,
+        "alert_count": 7
+      },
+      {
+        "date": "2010-04-19",
+        "average_risk": 0.48464970437075944,
+        "alert_count": 136
+      },
+      {
+        "date": "2010-04-20",
+        "average_risk": 0.4934329742286538,
+        "alert_count": 147
+      },
+      {
+        "date": "2010-04-21",
+        "average_risk": 0.4914438129455163,
+        "alert_count": 137
+      },
+      {
+        "date": "2010-04-22",
+        "average_risk": 0.4869056635575168,
+        "alert_count": 154
+      },
+      {
+        "date": "2010-04-23",
+        "average_risk": 0.49398800767560963,
+        "alert_count": 154
+      },
+      {
+        "date": "2010-04-24",
+        "average_risk": 0.4928253276436676,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-04-25",
+        "average_risk": 0.48602226611665805,
+        "alert_count": 8
+      },
+      {
+        "date": "2010-04-26",
+        "average_risk": 0.49335512060027503,
+        "alert_count": 179
+      },
+      {
+        "date": "2010-04-27",
+        "average_risk": 0.49159489272139156,
+        "alert_count": 152
+      },
+      {
+        "date": "2010-04-28",
+        "average_risk": 0.49053236939819156,
+        "alert_count": 124
+      },
+      {
+        "date": "2010-04-29",
+        "average_risk": 0.4852838572774941,
+        "alert_count": 168
+      },
+      {
+        "date": "2010-04-30",
+        "average_risk": 0.4891650565999015,
+        "alert_count": 147
+      },
+      {
+        "date": "2010-05-01",
+        "average_risk": 0.48600372460289404,
+        "alert_count": 6
+      },
+      {
+        "date": "2010-05-02",
+        "average_risk": 0.4882279149652933,
+        "alert_count": 13
+      },
+      {
+        "date": "2010-05-03",
+        "average_risk": 0.4909208947837677,
+        "alert_count": 158
+      },
+      {
+        "date": "2010-05-04",
+        "average_risk": 0.49250100241420597,
+        "alert_count": 168
+      },
+      {
+        "date": "2010-05-05",
+        "average_risk": 0.49065550673636266,
+        "alert_count": 156
+      },
+      {
+        "date": "2010-05-06",
+        "average_risk": 0.4922757954752126,
+        "alert_count": 135
+      },
+      {
+        "date": "2010-05-07",
+        "average_risk": 0.4923116113188978,
+        "alert_count": 130
+      },
+      {
+        "date": "2010-05-08",
+        "average_risk": 0.4921607710537051,
+        "alert_count": 15
+      },
+      {
+        "date": "2010-05-09",
+        "average_risk": 0.47920681708794455,
+        "alert_count": 4
+      },
+      {
+        "date": "2010-05-10",
+        "average_risk": 0.4918058170036881,
+        "alert_count": 130
+      },
+      {
+        "date": "2010-05-11",
+        "average_risk": 0.48946215329789083,
+        "alert_count": 142
+      },
+      {
+        "date": "2010-05-12",
+        "average_risk": 0.4882446207368159,
+        "alert_count": 141
+      },
+      {
+        "date": "2010-05-13",
+        "average_risk": 0.49285642183290046,
+        "alert_count": 159
+      },
+      {
+        "date": "2010-05-14",
+        "average_risk": 0.4869061672274374,
+        "alert_count": 140
+      },
+      {
+        "date": "2010-05-15",
+        "average_risk": 0.5028243921556762,
+        "alert_count": 7
+      },
+      {
+        "date": "2010-05-16",
+        "average_risk": 0.478374487770754,
+        "alert_count": 10
+      },
+      {
+        "date": "2010-05-17",
+        "average_risk": 0.48696928114093474,
+        "alert_count": 144
+      },
+      {
+        "date": "2010-05-18",
+        "average_risk": 0.49516571262566644,
+        "alert_count": 137
+      },
+      {
+        "date": "2010-05-19",
+        "average_risk": 0.48989218591755795,
+        "alert_count": 176
+      },
+      {
+        "date": "2010-05-20",
+        "average_risk": 0.49133086257499553,
+        "alert_count": 144
+      },
+      {
+        "date": "2010-05-21",
+        "average_risk": 0.4921865570569679,
+        "alert_count": 141
+      },
+      {
+        "date": "2010-05-22",
+        "average_risk": 0.5059790521386536,
+        "alert_count": 13
+      },
+      {
+        "date": "2010-05-23",
+        "average_risk": 0.47301943697563037,
+        "alert_count": 10
+      },
+      {
+        "date": "2010-05-24",
+        "average_risk": 0.4907384707367155,
+        "alert_count": 123
+      },
+      {
+        "date": "2010-05-25",
+        "average_risk": 0.49091601481958524,
+        "alert_count": 141
+      },
+      {
+        "date": "2010-05-26",
+        "average_risk": 0.4872694776845586,
+        "alert_count": 138
+      },
+      {
+        "date": "2010-05-27",
+        "average_risk": 0.4871262138275367,
+        "alert_count": 152
+      },
+      {
+        "date": "2010-05-28",
+        "average_risk": 0.4881508853427498,
+        "alert_count": 158
+      },
+      {
+        "date": "2010-05-29",
+        "average_risk": 0.49080667877400597,
+        "alert_count": 6
+      },
+      {
+        "date": "2010-05-30",
+        "average_risk": 0.5015280480916366,
+        "alert_count": 7
+      },
+      {
+        "date": "2010-05-31",
+        "average_risk": 0.4900770277509201,
+        "alert_count": 12
+      },
+      {
+        "date": "2010-06-01",
+        "average_risk": 0.4882863601935422,
+        "alert_count": 128
+      },
+      {
+        "date": "2010-06-02",
+        "average_risk": 0.49014721137717077,
+        "alert_count": 145
+      },
+      {
+        "date": "2010-06-03",
+        "average_risk": 0.4917386706755531,
+        "alert_count": 151
+      },
+      {
+        "date": "2010-06-04",
+        "average_risk": 0.49024358913068755,
+        "alert_count": 150
+      },
+      {
+        "date": "2010-06-05",
+        "average_risk": 0.4608186412754529,
+        "alert_count": 6
+      },
+      {
+        "date": "2010-06-06",
+        "average_risk": 0.4784263032890407,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-06-07",
+        "average_risk": 0.4910936133500067,
+        "alert_count": 160
+      },
+      {
+        "date": "2010-06-08",
+        "average_risk": 0.48938185722032657,
+        "alert_count": 139
+      },
+      {
+        "date": "2010-06-09",
+        "average_risk": 0.4895609074393215,
+        "alert_count": 136
+      },
+      {
+        "date": "2010-06-10",
+        "average_risk": 0.4874215791905655,
+        "alert_count": 136
+      },
+      {
+        "date": "2010-06-11",
+        "average_risk": 0.48970420904212003,
+        "alert_count": 127
+      },
+      {
+        "date": "2010-06-12",
+        "average_risk": 0.49476401308292295,
+        "alert_count": 6
+      },
+      {
+        "date": "2010-06-13",
+        "average_risk": 0.49388297912182216,
+        "alert_count": 10
+      },
+      {
+        "date": "2010-06-14",
+        "average_risk": 0.48499002918043743,
+        "alert_count": 158
+      },
+      {
+        "date": "2010-06-15",
+        "average_risk": 0.4867107369030081,
+        "alert_count": 133
+      },
+      {
+        "date": "2010-06-16",
+        "average_risk": 0.4875570021840275,
+        "alert_count": 142
+      },
+      {
+        "date": "2010-06-17",
+        "average_risk": 0.48835863402225205,
+        "alert_count": 154
+      },
+      {
+        "date": "2010-06-18",
+        "average_risk": 0.48629175319367635,
+        "alert_count": 141
+      },
+      {
+        "date": "2010-06-19",
+        "average_risk": 0.4938194949837588,
+        "alert_count": 10
+      },
+      {
+        "date": "2010-06-20",
+        "average_risk": 0.4857306207308887,
+        "alert_count": 10
+      },
+      {
+        "date": "2010-06-21",
+        "average_risk": 0.49106398889859665,
+        "alert_count": 127
+      },
+      {
+        "date": "2010-06-22",
+        "average_risk": 0.4938389627670663,
+        "alert_count": 173
+      },
+      {
+        "date": "2010-06-23",
+        "average_risk": 0.48769587118781277,
+        "alert_count": 157
+      },
+      {
+        "date": "2010-06-24",
+        "average_risk": 0.48946419968313803,
+        "alert_count": 161
+      },
+      {
+        "date": "2010-06-25",
+        "average_risk": 0.4920504624283093,
+        "alert_count": 154
+      },
+      {
+        "date": "2010-06-26",
+        "average_risk": 0.47713746261993584,
+        "alert_count": 8
+      },
+      {
+        "date": "2010-06-27",
+        "average_risk": 0.48253460354462263,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-06-28",
+        "average_risk": 0.48886853208979575,
+        "alert_count": 153
+      },
+      {
+        "date": "2010-06-29",
+        "average_risk": 0.4908862187538645,
+        "alert_count": 138
+      },
+      {
+        "date": "2010-06-30",
+        "average_risk": 0.4879065822575309,
+        "alert_count": 125
+      },
+      {
+        "date": "2010-07-01",
+        "average_risk": 0.4864663760650367,
+        "alert_count": 152
+      },
+      {
+        "date": "2010-07-02",
+        "average_risk": 0.49193732708955096,
+        "alert_count": 137
+      },
+      {
+        "date": "2010-07-03",
+        "average_risk": 0.49882668749856834,
+        "alert_count": 15
+      },
+      {
+        "date": "2010-07-04",
+        "average_risk": 0.48623175512954014,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-07-05",
+        "average_risk": 0.4892003263597933,
+        "alert_count": 6
+      },
+      {
+        "date": "2010-07-06",
+        "average_risk": 0.4901294879727849,
+        "alert_count": 166
+      },
+      {
+        "date": "2010-07-07",
+        "average_risk": 0.490050031948732,
+        "alert_count": 130
+      },
+      {
+        "date": "2010-07-08",
+        "average_risk": 0.49335039634279887,
+        "alert_count": 133
+      },
+      {
+        "date": "2010-07-09",
+        "average_risk": 0.4916737027843605,
+        "alert_count": 153
+      },
+      {
+        "date": "2010-07-10",
+        "average_risk": 0.4855045681842267,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-07-11",
+        "average_risk": 0.47012143623625885,
+        "alert_count": 6
+      },
+      {
+        "date": "2010-07-12",
+        "average_risk": 0.48985007510303064,
+        "alert_count": 150
+      },
+      {
+        "date": "2010-07-13",
+        "average_risk": 0.48758938871090646,
+        "alert_count": 138
+      },
+      {
+        "date": "2010-07-14",
+        "average_risk": 0.48886355011905797,
+        "alert_count": 122
+      },
+      {
+        "date": "2010-07-15",
+        "average_risk": 0.49234814277297845,
+        "alert_count": 139
+      },
+      {
+        "date": "2010-07-16",
+        "average_risk": 0.48832332557651403,
+        "alert_count": 147
+      },
+      {
+        "date": "2010-07-17",
+        "average_risk": 0.48594535873712896,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-07-18",
+        "average_risk": 0.46859130676323335,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-07-19",
+        "average_risk": 0.48776225475082424,
+        "alert_count": 146
+      },
+      {
+        "date": "2010-07-20",
+        "average_risk": 0.4894839699818096,
+        "alert_count": 129
+      },
+      {
+        "date": "2010-07-21",
+        "average_risk": 0.48831841689541783,
+        "alert_count": 135
+      },
+      {
+        "date": "2010-07-22",
+        "average_risk": 0.4910620496982134,
+        "alert_count": 133
+      },
+      {
+        "date": "2010-07-23",
+        "average_risk": 0.4884067637180513,
+        "alert_count": 147
+      },
+      {
+        "date": "2010-07-24",
+        "average_risk": 0.4970148852112796,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-07-25",
+        "average_risk": 0.4823292739298065,
+        "alert_count": 8
+      },
+      {
+        "date": "2010-07-26",
+        "average_risk": 0.4926065135270427,
+        "alert_count": 140
+      },
+      {
+        "date": "2010-07-27",
+        "average_risk": 0.48582398320391695,
+        "alert_count": 152
+      },
+      {
+        "date": "2010-07-28",
+        "average_risk": 0.4873573184593454,
+        "alert_count": 158
+      },
+      {
+        "date": "2010-07-29",
+        "average_risk": 0.4845162048660744,
+        "alert_count": 130
+      },
+      {
+        "date": "2010-07-30",
+        "average_risk": 0.4904511456255212,
+        "alert_count": 140
+      },
+      {
+        "date": "2010-07-31",
+        "average_risk": 0.49595070038694705,
+        "alert_count": 7
+      },
+      {
+        "date": "2010-08-01",
+        "average_risk": 0.4837742319170118,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-08-02",
+        "average_risk": 0.48710300458151384,
+        "alert_count": 162
+      },
+      {
+        "date": "2010-08-03",
+        "average_risk": 0.4902422666463341,
+        "alert_count": 135
+      },
+      {
+        "date": "2010-08-04",
+        "average_risk": 0.4882102114670119,
+        "alert_count": 161
+      },
+      {
+        "date": "2010-08-05",
+        "average_risk": 0.4898891937735428,
+        "alert_count": 146
+      },
+      {
+        "date": "2010-08-06",
+        "average_risk": 0.48991235558377855,
+        "alert_count": 144
+      },
+      {
+        "date": "2010-08-07",
+        "average_risk": 0.487186218096331,
+        "alert_count": 14
+      },
+      {
+        "date": "2010-08-08",
+        "average_risk": 0.4813726343648364,
+        "alert_count": 16
+      },
+      {
+        "date": "2010-08-09",
+        "average_risk": 0.4889026316747816,
+        "alert_count": 162
+      },
+      {
+        "date": "2010-08-10",
+        "average_risk": 0.4856655357757122,
+        "alert_count": 128
+      },
+      {
+        "date": "2010-08-11",
+        "average_risk": 0.4913405438263712,
+        "alert_count": 156
+      },
+      {
+        "date": "2010-08-12",
+        "average_risk": 0.48791984591457127,
+        "alert_count": 149
+      },
+      {
+        "date": "2010-08-13",
+        "average_risk": 0.4869896469983735,
+        "alert_count": 161
+      },
+      {
+        "date": "2010-08-14",
+        "average_risk": 0.4847230449800505,
+        "alert_count": 7
+      },
+      {
+        "date": "2010-08-15",
+        "average_risk": 0.49918842746681535,
+        "alert_count": 7
+      },
+      {
+        "date": "2010-08-16",
+        "average_risk": 0.4915645059187701,
+        "alert_count": 135
+      },
+      {
+        "date": "2010-08-17",
+        "average_risk": 0.4883012452073538,
+        "alert_count": 139
+      },
+      {
+        "date": "2010-08-18",
+        "average_risk": 0.4883772291633802,
+        "alert_count": 169
+      },
+      {
+        "date": "2010-08-19",
+        "average_risk": 0.48930131813130207,
+        "alert_count": 165
+      },
+      {
+        "date": "2010-08-20",
+        "average_risk": 0.4870569387512801,
+        "alert_count": 146
+      },
+      {
+        "date": "2010-08-21",
+        "average_risk": 0.5062682636384813,
+        "alert_count": 6
+      },
+      {
+        "date": "2010-08-22",
+        "average_risk": 0.48945449608085934,
+        "alert_count": 15
+      },
+      {
+        "date": "2010-08-23",
+        "average_risk": 0.48732687450061024,
+        "alert_count": 148
+      },
+      {
+        "date": "2010-08-24",
+        "average_risk": 0.48823285031675373,
+        "alert_count": 151
+      },
+      {
+        "date": "2010-08-25",
+        "average_risk": 0.4860046888048799,
+        "alert_count": 139
+      },
+      {
+        "date": "2010-08-26",
+        "average_risk": 0.48776374634038105,
+        "alert_count": 142
+      },
+      {
+        "date": "2010-08-27",
+        "average_risk": 0.4897806301267227,
+        "alert_count": 138
+      },
+      {
+        "date": "2010-08-28",
+        "average_risk": 0.48121528166656274,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-08-29",
+        "average_risk": 0.4727299373685068,
+        "alert_count": 12
+      },
+      {
+        "date": "2010-08-30",
+        "average_risk": 0.48639770830481505,
+        "alert_count": 127
+      },
+      {
+        "date": "2010-08-31",
+        "average_risk": 0.4898480852600491,
+        "alert_count": 145
+      },
+      {
+        "date": "2010-09-01",
+        "average_risk": 0.490192942742103,
+        "alert_count": 139
+      },
+      {
+        "date": "2010-09-02",
+        "average_risk": 0.4835851217806818,
+        "alert_count": 156
+      },
+      {
+        "date": "2010-09-03",
+        "average_risk": 0.48769268207028404,
+        "alert_count": 134
+      },
+      {
+        "date": "2010-09-04",
+        "average_risk": 0.4843548910738312,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-09-05",
+        "average_risk": 0.47399986163152485,
+        "alert_count": 8
+      },
+      {
+        "date": "2010-09-06",
+        "average_risk": 0.4914934677707183,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-09-07",
+        "average_risk": 0.4852286185903965,
+        "alert_count": 136
+      },
+      {
+        "date": "2010-09-08",
+        "average_risk": 0.4871397731278194,
+        "alert_count": 137
+      },
+      {
+        "date": "2010-09-09",
+        "average_risk": 0.48878387967341147,
+        "alert_count": 163
+      },
+      {
+        "date": "2010-09-10",
+        "average_risk": 0.4859683485167707,
+        "alert_count": 139
+      },
+      {
+        "date": "2010-09-11",
+        "average_risk": 0.48461639860338135,
+        "alert_count": 10
+      },
+      {
+        "date": "2010-09-12",
+        "average_risk": 0.4854078421000481,
+        "alert_count": 12
+      },
+      {
+        "date": "2010-09-13",
+        "average_risk": 0.4863658876777017,
+        "alert_count": 139
+      },
+      {
+        "date": "2010-09-14",
+        "average_risk": 0.4875742313759923,
+        "alert_count": 124
+      },
+      {
+        "date": "2010-09-15",
+        "average_risk": 0.48506744213883995,
+        "alert_count": 139
+      },
+      {
+        "date": "2010-09-16",
+        "average_risk": 0.4881024299936834,
+        "alert_count": 135
+      },
+      {
+        "date": "2010-09-17",
+        "average_risk": 0.4898013974560002,
+        "alert_count": 144
+      },
+      {
+        "date": "2010-09-18",
+        "average_risk": 0.48252931197369053,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-09-19",
+        "average_risk": 0.4741453261088579,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-09-20",
+        "average_risk": 0.4872938857046363,
+        "alert_count": 138
+      },
+      {
+        "date": "2010-09-21",
+        "average_risk": 0.48988958905762287,
+        "alert_count": 153
+      },
+      {
+        "date": "2010-09-22",
+        "average_risk": 0.4892474562975534,
+        "alert_count": 156
+      },
+      {
+        "date": "2010-09-23",
+        "average_risk": 0.4864569823140907,
+        "alert_count": 130
+      },
+      {
+        "date": "2010-09-24",
+        "average_risk": 0.49030881952162975,
+        "alert_count": 144
+      },
+      {
+        "date": "2010-09-25",
+        "average_risk": 0.49255352898419735,
+        "alert_count": 6
+      },
+      {
+        "date": "2010-09-26",
+        "average_risk": 0.48541300821879957,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-09-27",
+        "average_risk": 0.4860851618010963,
+        "alert_count": 145
+      },
+      {
+        "date": "2010-09-28",
+        "average_risk": 0.4901036047888157,
+        "alert_count": 158
+      },
+      {
+        "date": "2010-09-29",
+        "average_risk": 0.48551021310659565,
+        "alert_count": 142
+      },
+      {
+        "date": "2010-09-30",
+        "average_risk": 0.4877717198282962,
+        "alert_count": 136
+      },
+      {
+        "date": "2010-10-01",
+        "average_risk": 0.48605963768246124,
+        "alert_count": 122
+      },
+      {
+        "date": "2010-10-02",
+        "average_risk": 0.4858596075448253,
+        "alert_count": 17
+      },
+      {
+        "date": "2010-10-03",
+        "average_risk": 0.4803545624118106,
+        "alert_count": 10
+      },
+      {
+        "date": "2010-10-04",
+        "average_risk": 0.48483552597538143,
+        "alert_count": 125
+      },
+      {
+        "date": "2010-10-05",
+        "average_risk": 0.48721474241782703,
+        "alert_count": 139
+      },
+      {
+        "date": "2010-10-06",
+        "average_risk": 0.4845127074564523,
+        "alert_count": 145
+      },
+      {
+        "date": "2010-10-07",
+        "average_risk": 0.4869376269105781,
+        "alert_count": 127
+      },
+      {
+        "date": "2010-10-08",
+        "average_risk": 0.4902184436423224,
+        "alert_count": 136
+      },
+      {
+        "date": "2010-10-09",
+        "average_risk": 0.504206224897691,
+        "alert_count": 8
+      },
+      {
+        "date": "2010-10-10",
+        "average_risk": 0.48395069551601877,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-10-11",
+        "average_risk": 0.48892916748444204,
+        "alert_count": 158
+      },
+      {
+        "date": "2010-10-12",
+        "average_risk": 0.4849884585989421,
+        "alert_count": 158
+      },
+      {
+        "date": "2010-10-13",
+        "average_risk": 0.49005290892085346,
+        "alert_count": 142
+      },
+      {
+        "date": "2010-10-14",
+        "average_risk": 0.48411385646961475,
+        "alert_count": 141
+      },
+      {
+        "date": "2010-10-15",
+        "average_risk": 0.4874802218296293,
+        "alert_count": 131
+      },
+      {
+        "date": "2010-10-16",
+        "average_risk": 0.492144771609865,
+        "alert_count": 8
+      },
+      {
+        "date": "2010-10-17",
+        "average_risk": 0.48002686323409,
+        "alert_count": 13
+      },
+      {
+        "date": "2010-10-18",
+        "average_risk": 0.487908379650362,
+        "alert_count": 128
+      },
+      {
+        "date": "2010-10-19",
+        "average_risk": 0.49113287833056013,
+        "alert_count": 162
+      },
+      {
+        "date": "2010-10-20",
+        "average_risk": 0.4891254700768119,
+        "alert_count": 142
+      },
+      {
+        "date": "2010-10-21",
+        "average_risk": 0.48522625321927154,
+        "alert_count": 145
+      },
+      {
+        "date": "2010-10-22",
+        "average_risk": 0.4912998000128847,
+        "alert_count": 131
+      },
+      {
+        "date": "2010-10-23",
+        "average_risk": 0.4737299686961961,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-10-24",
+        "average_risk": 0.4912306256419453,
+        "alert_count": 8
+      },
+      {
+        "date": "2010-10-25",
+        "average_risk": 0.4864363774889793,
+        "alert_count": 145
+      },
+      {
+        "date": "2010-10-26",
+        "average_risk": 0.4841366793553759,
+        "alert_count": 129
+      },
+      {
+        "date": "2010-10-27",
+        "average_risk": 0.4898529593986533,
+        "alert_count": 146
+      },
+      {
+        "date": "2010-10-28",
+        "average_risk": 0.4875928746131253,
+        "alert_count": 133
+      },
+      {
+        "date": "2010-10-29",
+        "average_risk": 0.4867388468982808,
+        "alert_count": 125
+      },
+      {
+        "date": "2010-10-30",
+        "average_risk": 0.48127552144684327,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-10-31",
+        "average_risk": 0.47928480054826234,
+        "alert_count": 10
+      },
+      {
+        "date": "2010-11-01",
+        "average_risk": 0.48428290584737754,
+        "alert_count": 157
+      },
+      {
+        "date": "2010-11-02",
+        "average_risk": 0.4871609909402148,
+        "alert_count": 124
+      },
+      {
+        "date": "2010-11-03",
+        "average_risk": 0.4919029117127923,
+        "alert_count": 138
+      },
+      {
+        "date": "2010-11-04",
+        "average_risk": 0.48277030909205093,
+        "alert_count": 132
+      },
+      {
+        "date": "2010-11-05",
+        "average_risk": 0.4870525532602096,
+        "alert_count": 120
+      },
+      {
+        "date": "2010-11-06",
+        "average_risk": 0.4783310267261528,
+        "alert_count": 13
+      },
+      {
+        "date": "2010-11-07",
+        "average_risk": 0.48498726627442745,
+        "alert_count": 8
+      },
+      {
+        "date": "2010-11-08",
+        "average_risk": 0.4850198750582573,
+        "alert_count": 143
+      },
+      {
+        "date": "2010-11-09",
+        "average_risk": 0.4851260325673188,
+        "alert_count": 132
+      },
+      {
+        "date": "2010-11-10",
+        "average_risk": 0.48630418330333985,
+        "alert_count": 130
+      },
+      {
+        "date": "2010-11-11",
+        "average_risk": 0.48954131628285225,
+        "alert_count": 146
+      },
+      {
+        "date": "2010-11-12",
+        "average_risk": 0.4857279632396281,
+        "alert_count": 123
+      },
+      {
+        "date": "2010-11-13",
+        "average_risk": 0.4682683592632492,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-11-14",
+        "average_risk": 0.49095251467106527,
+        "alert_count": 7
+      },
+      {
+        "date": "2010-11-15",
+        "average_risk": 0.4847080976099268,
+        "alert_count": 114
+      },
+      {
+        "date": "2010-11-16",
+        "average_risk": 0.4845353720549145,
+        "alert_count": 129
+      },
+      {
+        "date": "2010-11-17",
+        "average_risk": 0.48686361678728235,
+        "alert_count": 123
+      },
+      {
+        "date": "2010-11-18",
+        "average_risk": 0.48599372887131237,
+        "alert_count": 140
+      },
+      {
+        "date": "2010-11-19",
+        "average_risk": 0.4887335151613359,
+        "alert_count": 130
+      },
+      {
+        "date": "2010-11-20",
+        "average_risk": 0.4945779808685252,
+        "alert_count": 10
+      },
+      {
+        "date": "2010-11-21",
+        "average_risk": 0.44915208811482293,
+        "alert_count": 6
+      },
+      {
+        "date": "2010-11-22",
+        "average_risk": 0.484985113374921,
+        "alert_count": 139
+      },
+      {
+        "date": "2010-11-23",
+        "average_risk": 0.48601469440227174,
+        "alert_count": 122
+      },
+      {
+        "date": "2010-11-24",
+        "average_risk": 0.4846480068846615,
+        "alert_count": 126
+      },
+      {
+        "date": "2010-11-25",
+        "average_risk": 0.4980059322955549,
+        "alert_count": 8
+      },
+      {
+        "date": "2010-11-26",
+        "average_risk": 0.46769502763076276,
+        "alert_count": 13
+      },
+      {
+        "date": "2010-11-27",
+        "average_risk": 0.4847974339632669,
+        "alert_count": 13
+      },
+      {
+        "date": "2010-11-28",
+        "average_risk": 0.46825519977529567,
+        "alert_count": 8
+      },
+      {
+        "date": "2010-11-29",
+        "average_risk": 0.4877209189885369,
+        "alert_count": 142
+      },
+      {
+        "date": "2010-11-30",
+        "average_risk": 0.4859834591251038,
+        "alert_count": 136
+      },
+      {
+        "date": "2010-12-01",
+        "average_risk": 0.4895956863688984,
+        "alert_count": 139
+      },
+      {
+        "date": "2010-12-02",
+        "average_risk": 0.4891601085355897,
+        "alert_count": 140
+      },
+      {
+        "date": "2010-12-03",
+        "average_risk": 0.4840422982163866,
+        "alert_count": 142
+      },
+      {
+        "date": "2010-12-04",
+        "average_risk": 0.4966375030477868,
+        "alert_count": 7
+      },
+      {
+        "date": "2010-12-05",
+        "average_risk": 0.4904634433322377,
+        "alert_count": 11
+      },
+      {
+        "date": "2010-12-06",
+        "average_risk": 0.4865764511268057,
+        "alert_count": 140
+      },
+      {
+        "date": "2010-12-07",
+        "average_risk": 0.4888211282849112,
+        "alert_count": 117
+      },
+      {
+        "date": "2010-12-08",
+        "average_risk": 0.4855027590984608,
+        "alert_count": 156
+      },
+      {
+        "date": "2010-12-09",
+        "average_risk": 0.4858635343851847,
+        "alert_count": 132
+      },
+      {
+        "date": "2010-12-10",
+        "average_risk": 0.48390479041537865,
+        "alert_count": 109
+      },
+      {
+        "date": "2010-12-11",
+        "average_risk": 0.47324602518683057,
+        "alert_count": 7
+      },
+      {
+        "date": "2010-12-12",
+        "average_risk": 0.4860569548375493,
+        "alert_count": 6
+      },
+      {
+        "date": "2010-12-13",
+        "average_risk": 0.48421611779059076,
+        "alert_count": 113
+      },
+      {
+        "date": "2010-12-14",
+        "average_risk": 0.48625038690253575,
+        "alert_count": 137
+      },
+      {
+        "date": "2010-12-15",
+        "average_risk": 0.4823485827135722,
+        "alert_count": 114
+      },
+      {
+        "date": "2010-12-16",
+        "average_risk": 0.48508541875335415,
+        "alert_count": 126
+      },
+      {
+        "date": "2010-12-17",
+        "average_risk": 0.48368011650529275,
+        "alert_count": 125
+      },
+      {
+        "date": "2010-12-18",
+        "average_risk": 0.48612433265317156,
+        "alert_count": 13
+      },
+      {
+        "date": "2010-12-19",
+        "average_risk": 0.47729930677457333,
+        "alert_count": 9
+      },
+      {
+        "date": "2010-12-20",
+        "average_risk": 0.48738745155366936,
+        "alert_count": 116
+      },
+      {
+        "date": "2010-12-21",
+        "average_risk": 0.48638007515625453,
+        "alert_count": 126
+      },
+      {
+        "date": "2010-12-22",
+        "average_risk": 0.4879816387567378,
+        "alert_count": 131
+      },
+      {
+        "date": "2010-12-23",
+        "average_risk": 0.5155470426011426,
+        "alert_count": 10
+      },
+      {
+        "date": "2010-12-24",
+        "average_risk": 0.48911612096669216,
+        "alert_count": 7
+      },
+      {
+        "date": "2010-12-25",
+        "average_risk": 0.47089103813395633,
+        "alert_count": 7
+      },
+      {
+        "date": "2010-12-26",
+        "average_risk": 0.48410097049309114,
+        "alert_count": 8
+      },
+      {
+        "date": "2010-12-27",
+        "average_risk": 0.4864090280357154,
+        "alert_count": 135
+      },
+      {
+        "date": "2010-12-28",
+        "average_risk": 0.4865982549022878,
+        "alert_count": 134
+      },
+      {
+        "date": "2010-12-29",
+        "average_risk": 0.4870543512515609,
+        "alert_count": 142
+      },
+      {
+        "date": "2010-12-30",
+        "average_risk": 0.4848489486172101,
+        "alert_count": 130
+      },
+      {
+        "date": "2010-12-31",
+        "average_risk": 0.4813574181796001,
+        "alert_count": 8
+      },
+      {
+        "date": "2011-01-01",
+        "average_risk": 0.48904337170148526,
+        "alert_count": 10
+      },
+      {
+        "date": "2011-01-02",
+        "average_risk": 0.47606922204950697,
+        "alert_count": 10
+      },
+      {
+        "date": "2011-01-03",
+        "average_risk": 0.4826077211942576,
+        "alert_count": 143
+      },
+      {
+        "date": "2011-01-04",
+        "average_risk": 0.4874873520417117,
+        "alert_count": 121
+      },
+      {
+        "date": "2011-01-05",
+        "average_risk": 0.4875570683810771,
+        "alert_count": 138
+      },
+      {
+        "date": "2011-01-06",
+        "average_risk": 0.486954407361967,
+        "alert_count": 135
+      },
+      {
+        "date": "2011-01-07",
+        "average_risk": 0.4865120671373084,
+        "alert_count": 134
+      },
+      {
+        "date": "2011-01-08",
+        "average_risk": 0.49396674789531014,
+        "alert_count": 11
+      },
+      {
+        "date": "2011-01-09",
+        "average_risk": 0.4888092252115497,
+        "alert_count": 5
+      },
+      {
+        "date": "2011-01-10",
+        "average_risk": 0.48562504023015435,
+        "alert_count": 126
+      },
+      {
+        "date": "2011-01-11",
+        "average_risk": 0.48480546514960166,
+        "alert_count": 119
+      },
+      {
+        "date": "2011-01-12",
+        "average_risk": 0.48884924223508314,
+        "alert_count": 116
+      },
+      {
+        "date": "2011-01-13",
+        "average_risk": 0.4827046716922388,
+        "alert_count": 136
+      },
+      {
+        "date": "2011-01-14",
+        "average_risk": 0.4837420685377796,
+        "alert_count": 142
+      },
+      {
+        "date": "2011-01-15",
+        "average_risk": 0.4784440970197354,
+        "alert_count": 8
+      },
+      {
+        "date": "2011-01-16",
+        "average_risk": 0.4825938925720989,
+        "alert_count": 8
+      },
+      {
+        "date": "2011-01-17",
+        "average_risk": 0.4835467263783744,
+        "alert_count": 141
+      },
+      {
+        "date": "2011-01-18",
+        "average_risk": 0.4868140135000946,
+        "alert_count": 139
+      },
+      {
+        "date": "2011-01-19",
+        "average_risk": 0.48351976561655574,
+        "alert_count": 121
+      },
+      {
+        "date": "2011-01-20",
+        "average_risk": 0.48476231114844803,
+        "alert_count": 141
+      },
+      {
+        "date": "2011-01-21",
+        "average_risk": 0.4871281634813923,
+        "alert_count": 133
+      },
+      {
+        "date": "2011-01-22",
+        "average_risk": 0.4929001532529427,
+        "alert_count": 12
+      },
+      {
+        "date": "2011-01-23",
+        "average_risk": 0.4866741004391466,
+        "alert_count": 10
+      },
+      {
+        "date": "2011-01-24",
+        "average_risk": 0.4891359047043303,
+        "alert_count": 135
+      },
+      {
+        "date": "2011-01-25",
+        "average_risk": 0.4827679200275741,
+        "alert_count": 136
+      },
+      {
+        "date": "2011-01-26",
+        "average_risk": 0.48577665766301337,
+        "alert_count": 114
+      },
+      {
+        "date": "2011-01-27",
+        "average_risk": 0.48639809710791715,
+        "alert_count": 135
+      },
+      {
+        "date": "2011-01-28",
+        "average_risk": 0.4853021209107573,
+        "alert_count": 133
+      },
+      {
+        "date": "2011-01-29",
+        "average_risk": 0.49150253640154945,
+        "alert_count": 11
+      },
+      {
+        "date": "2011-01-30",
+        "average_risk": 0.4845762887588493,
+        "alert_count": 9
+      },
+      {
+        "date": "2011-01-31",
+        "average_risk": 0.4878895108821341,
+        "alert_count": 133
+      },
+      {
+        "date": "2011-02-01",
+        "average_risk": 0.48482343102210024,
+        "alert_count": 146
+      },
+      {
+        "date": "2011-02-02",
+        "average_risk": 0.4877188627354519,
+        "alert_count": 130
+      },
+      {
+        "date": "2011-02-03",
+        "average_risk": 0.4859728944808853,
+        "alert_count": 138
+      },
+      {
+        "date": "2011-02-04",
+        "average_risk": 0.4842652860834469,
+        "alert_count": 126
+      },
+      {
+        "date": "2011-02-05",
+        "average_risk": 0.4759541630309266,
+        "alert_count": 9
+      },
+      {
+        "date": "2011-02-06",
+        "average_risk": 0.48068826580410257,
+        "alert_count": 6
+      },
+      {
+        "date": "2011-02-07",
+        "average_risk": 0.4825471805311195,
+        "alert_count": 132
+      },
+      {
+        "date": "2011-02-08",
+        "average_risk": 0.4836217224256845,
+        "alert_count": 125
+      },
+      {
+        "date": "2011-02-09",
+        "average_risk": 0.48669661338917414,
+        "alert_count": 122
+      },
+      {
+        "date": "2011-02-10",
+        "average_risk": 0.4846677796479821,
+        "alert_count": 133
+      },
+      {
+        "date": "2011-02-11",
+        "average_risk": 0.48906532059846736,
+        "alert_count": 139
+      },
+      {
+        "date": "2011-02-12",
+        "average_risk": 0.48513800508041205,
+        "alert_count": 10
+      },
+      {
+        "date": "2011-02-13",
+        "average_risk": 0.48458072041571554,
+        "alert_count": 9
+      },
+      {
+        "date": "2011-02-14",
+        "average_risk": 0.48357120419809335,
+        "alert_count": 138
+      },
+      {
+        "date": "2011-02-15",
+        "average_risk": 0.48527920283087095,
+        "alert_count": 123
+      },
+      {
+        "date": "2011-02-16",
+        "average_risk": 0.4836836575560566,
+        "alert_count": 119
+      },
+      {
+        "date": "2011-02-17",
+        "average_risk": 0.48501422294131896,
+        "alert_count": 136
+      },
+      {
+        "date": "2011-02-18",
+        "average_risk": 0.49011090863549417,
+        "alert_count": 121
+      },
+      {
+        "date": "2011-02-19",
+        "average_risk": 0.4750704171439613,
+        "alert_count": 7
+      },
+      {
+        "date": "2011-02-20",
+        "average_risk": 0.48117065049261004,
+        "alert_count": 12
+      },
+      {
+        "date": "2011-02-21",
+        "average_risk": 0.48551380723361837,
+        "alert_count": 147
+      },
+      {
+        "date": "2011-02-22",
+        "average_risk": 0.4896766019140597,
+        "alert_count": 139
+      },
+      {
+        "date": "2011-02-23",
+        "average_risk": 0.4836753855773322,
+        "alert_count": 133
+      },
+      {
+        "date": "2011-02-24",
+        "average_risk": 0.4891124144176686,
+        "alert_count": 144
+      },
+      {
+        "date": "2011-02-25",
+        "average_risk": 0.48547638847873653,
+        "alert_count": 120
+      },
+      {
+        "date": "2011-02-26",
+        "average_risk": 0.4886790154485585,
+        "alert_count": 8
+      },
+      {
+        "date": "2011-02-27",
+        "average_risk": 0.4795877408133878,
+        "alert_count": 12
+      },
+      {
+        "date": "2011-02-28",
+        "average_risk": 0.4852812702148332,
+        "alert_count": 132
+      },
+      {
+        "date": "2011-03-01",
+        "average_risk": 0.48598763776017445,
+        "alert_count": 128
+      },
+      {
+        "date": "2011-03-02",
+        "average_risk": 0.48236659987110225,
+        "alert_count": 135
+      },
+      {
+        "date": "2011-03-03",
+        "average_risk": 0.48731729123822387,
+        "alert_count": 133
+      },
+      {
+        "date": "2011-03-04",
+        "average_risk": 0.48469454599204276,
+        "alert_count": 132
+      },
+      {
+        "date": "2011-03-05",
+        "average_risk": 0.493519073486373,
+        "alert_count": 6
+      },
+      {
+        "date": "2011-03-06",
+        "average_risk": 0.4909478231725931,
+        "alert_count": 4
+      },
+      {
+        "date": "2011-03-07",
+        "average_risk": 0.4833312604923235,
+        "alert_count": 116
+      },
+      {
+        "date": "2011-03-08",
+        "average_risk": 0.48492373644841735,
+        "alert_count": 114
+      },
+      {
+        "date": "2011-03-09",
+        "average_risk": 0.4884705067442065,
+        "alert_count": 137
+      },
+      {
+        "date": "2011-03-10",
+        "average_risk": 0.48537899686879904,
+        "alert_count": 125
+      },
+      {
+        "date": "2011-03-11",
+        "average_risk": 0.48544750075117726,
+        "alert_count": 109
+      },
+      {
+        "date": "2011-03-12",
+        "average_risk": 0.47835584664641007,
+        "alert_count": 8
+      },
+      {
+        "date": "2011-03-13",
+        "average_risk": 0.4770218592254344,
+        "alert_count": 10
+      },
+      {
+        "date": "2011-03-14",
+        "average_risk": 0.48809000269780684,
+        "alert_count": 133
+      },
+      {
+        "date": "2011-03-15",
+        "average_risk": 0.48260580340031944,
+        "alert_count": 132
+      },
+      {
+        "date": "2011-03-16",
+        "average_risk": 0.4860725412234565,
+        "alert_count": 143
+      },
+      {
+        "date": "2011-03-17",
+        "average_risk": 0.48794578500818603,
+        "alert_count": 122
+      },
+      {
+        "date": "2011-03-18",
+        "average_risk": 0.4820519771955746,
+        "alert_count": 118
+      },
+      {
+        "date": "2011-03-19",
+        "average_risk": 0.48591598427300114,
+        "alert_count": 8
+      },
+      {
+        "date": "2011-03-20",
+        "average_risk": 0.4711319461631752,
+        "alert_count": 7
+      },
+      {
+        "date": "2011-03-21",
+        "average_risk": 0.48588533382682225,
+        "alert_count": 133
+      },
+      {
+        "date": "2011-03-22",
+        "average_risk": 0.48388913462837413,
+        "alert_count": 126
+      },
+      {
+        "date": "2011-03-23",
+        "average_risk": 0.4833413182006386,
+        "alert_count": 138
+      },
+      {
+        "date": "2011-03-24",
+        "average_risk": 0.48385883851493616,
+        "alert_count": 122
+      },
+      {
+        "date": "2011-03-25",
+        "average_risk": 0.48881466207221047,
+        "alert_count": 131
+      },
+      {
+        "date": "2011-03-26",
+        "average_risk": 0.49506203469094423,
+        "alert_count": 9
+      },
+      {
+        "date": "2011-03-27",
+        "average_risk": 0.4862984967243613,
+        "alert_count": 10
+      },
+      {
+        "date": "2011-03-28",
+        "average_risk": 0.48267325077144263,
+        "alert_count": 135
+      },
+      {
+        "date": "2011-03-29",
+        "average_risk": 0.4822794066727286,
+        "alert_count": 139
+      },
+      {
+        "date": "2011-03-30",
+        "average_risk": 0.4804173759177498,
+        "alert_count": 126
+      },
+      {
+        "date": "2011-03-31",
+        "average_risk": 0.4834603824896018,
+        "alert_count": 129
+      },
+      {
+        "date": "2011-04-01",
+        "average_risk": 0.4863233160345143,
+        "alert_count": 126
+      },
+      {
+        "date": "2011-04-02",
+        "average_risk": 0.4794146834350675,
+        "alert_count": 8
+      },
+      {
+        "date": "2011-04-03",
+        "average_risk": 0.4902290453556404,
+        "alert_count": 10
+      },
+      {
+        "date": "2011-04-04",
+        "average_risk": 0.4858590813996933,
+        "alert_count": 124
+      },
+      {
+        "date": "2011-04-05",
+        "average_risk": 0.48812704108798377,
+        "alert_count": 127
+      },
+      {
+        "date": "2011-04-06",
+        "average_risk": 0.48362910945648213,
+        "alert_count": 133
+      },
+      {
+        "date": "2011-04-07",
+        "average_risk": 0.484396174660098,
+        "alert_count": 124
+      },
+      {
+        "date": "2011-04-08",
+        "average_risk": 0.4867914749693571,
+        "alert_count": 129
+      },
+      {
+        "date": "2011-04-09",
+        "average_risk": 0.4839922730251689,
+        "alert_count": 7
+      },
+      {
+        "date": "2011-04-10",
+        "average_risk": 0.474761500834088,
+        "alert_count": 11
+      },
+      {
+        "date": "2011-04-11",
+        "average_risk": 0.4847772723460252,
+        "alert_count": 118
+      },
+      {
+        "date": "2011-04-12",
+        "average_risk": 0.4867561434913913,
+        "alert_count": 119
+      },
+      {
+        "date": "2011-04-13",
+        "average_risk": 0.4842857956342722,
+        "alert_count": 119
+      },
+      {
+        "date": "2011-04-14",
+        "average_risk": 0.4871295940059813,
+        "alert_count": 115
+      },
+      {
+        "date": "2011-04-15",
+        "average_risk": 0.4880118375633873,
+        "alert_count": 145
+      },
+      {
+        "date": "2011-04-16",
+        "average_risk": 0.4833845083813795,
+        "alert_count": 11
+      },
+      {
+        "date": "2011-04-17",
+        "average_risk": 0.4960337388104379,
+        "alert_count": 5
+      },
+      {
+        "date": "2011-04-18",
+        "average_risk": 0.4869737516015166,
+        "alert_count": 124
+      },
+      {
+        "date": "2011-04-19",
+        "average_risk": 0.48450655274151216,
+        "alert_count": 127
+      },
+      {
+        "date": "2011-04-20",
+        "average_risk": 0.48453100586371556,
+        "alert_count": 143
+      },
+      {
+        "date": "2011-04-21",
+        "average_risk": 0.48307080326845947,
+        "alert_count": 106
+      },
+      {
+        "date": "2011-04-22",
+        "average_risk": 0.47896655344443567,
+        "alert_count": 11
+      },
+      {
+        "date": "2011-04-23",
+        "average_risk": 0.4743860757223687,
+        "alert_count": 10
+      },
+      {
+        "date": "2011-04-24",
+        "average_risk": 0.49972667139004784,
+        "alert_count": 11
+      },
+      {
+        "date": "2011-04-25",
+        "average_risk": 0.4863807423451424,
+        "alert_count": 117
+      },
+      {
+        "date": "2011-04-26",
+        "average_risk": 0.4846569965638593,
+        "alert_count": 127
+      },
+      {
+        "date": "2011-04-27",
+        "average_risk": 0.48461229974441544,
+        "alert_count": 113
+      },
+      {
+        "date": "2011-04-28",
+        "average_risk": 0.48465247811353734,
+        "alert_count": 107
+      },
+      {
+        "date": "2011-04-29",
+        "average_risk": 0.4865733167389716,
+        "alert_count": 132
+      },
+      {
+        "date": "2011-04-30",
+        "average_risk": 0.47875016502282514,
+        "alert_count": 12
+      },
+      {
+        "date": "2011-05-01",
+        "average_risk": 0.49502247067902355,
+        "alert_count": 6
+      },
+      {
+        "date": "2011-05-02",
+        "average_risk": 0.48742230482978827,
+        "alert_count": 121
+      },
+      {
+        "date": "2011-05-03",
+        "average_risk": 0.48683126884648326,
+        "alert_count": 122
+      },
+      {
+        "date": "2011-05-04",
+        "average_risk": 0.4861542002641011,
+        "alert_count": 110
+      },
+      {
+        "date": "2011-05-05",
+        "average_risk": 0.487213159926746,
+        "alert_count": 126
+      },
+      {
+        "date": "2011-05-06",
+        "average_risk": 0.48671145289658896,
+        "alert_count": 127
+      },
+      {
+        "date": "2011-05-07",
+        "average_risk": 0.5058878632618881,
+        "alert_count": 9
+      },
+      {
+        "date": "2011-05-08",
+        "average_risk": 0.4890618982191886,
+        "alert_count": 9
+      },
+      {
+        "date": "2011-05-09",
+        "average_risk": 0.48472377989500404,
+        "alert_count": 116
+      },
+      {
+        "date": "2011-05-10",
+        "average_risk": 0.48359232925904333,
+        "alert_count": 126
+      },
+      {
+        "date": "2011-05-11",
+        "average_risk": 0.4885782384199091,
+        "alert_count": 109
+      },
+      {
+        "date": "2011-05-12",
+        "average_risk": 0.4861702991037004,
+        "alert_count": 132
+      },
+      {
+        "date": "2011-05-13",
+        "average_risk": 0.48721851781171654,
+        "alert_count": 132
+      },
+      {
+        "date": "2011-05-14",
+        "average_risk": 0.49974670311260794,
+        "alert_count": 8
+      },
+      {
+        "date": "2011-05-15",
+        "average_risk": 0.4683052385890647,
+        "alert_count": 9
+      },
+      {
+        "date": "2011-05-16",
+        "average_risk": 0.48578156573202286,
+        "alert_count": 118
+      }
+    ],
+    "top_users": [
+      {
+        "user": "MPM0220",
+        "average_risk": 0.5626067864030391,
+        "alert_count": 177
+      },
+      {
+        "user": "JGT0221",
+        "average_risk": 0.5454095707827924,
+        "alert_count": 30
+      },
+      {
+        "user": "GTD0219",
+        "average_risk": 0.5429545742077369,
+        "alert_count": 60
+      },
+      {
+        "user": "CCA0046",
+        "average_risk": 0.5421597558244348,
+        "alert_count": 95
+      },
+      {
+        "user": "MOS0047",
+        "average_risk": 0.5385021351085643,
+        "alert_count": 90
+      },
+      {
+        "user": "CSC0217",
+        "average_risk": 0.5375622215882756,
+        "alert_count": 17
+      },
+      {
+        "user": "BBS0039",
+        "average_risk": 0.5369163328970146,
+        "alert_count": 33
+      },
+      {
+        "user": "JLM0364",
+        "average_risk": 0.5365636288922994,
+        "alert_count": 71
+      },
+      {
+        "user": "BSS0369",
+        "average_risk": 0.5361714516376782,
+        "alert_count": 114
+      },
+      {
+        "user": "WDD0366",
+        "average_risk": 0.5327161658428531,
+        "alert_count": 75
+      }
+    ],
+    "risk_distribution": {
+      "CRITICAL": 29,
+      "HIGH": 7242,
+      "MEDIUM": 42601,
+      "LOW": 0
+    },
+    "model_performance": {
+      "precision": 0.87,
+      "recall": 0.82,
+      "f1_score": 0.84,
+      "roc_auc": 0.91
+    }
+  },
+  "export_time": "2026-05-04T17:31:03.341642"
+}
