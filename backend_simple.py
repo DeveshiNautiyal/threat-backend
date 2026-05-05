@@ -199,8 +199,8 @@ class DetectionSystem:
         """Export alerts to JSON file"""
         data = {
             'metrics': self.get_metrics(),
-            'alerts': self.get_top_alerts(limit=100),
-            'user_risks': self.get_user_risks(limit=50),
+            'alerts': self.get_top_alerts(limit=999999),
+            'user_risks': self.get_user_risks(limit=99999),
             'analytics': self.get_analytics(),
             'export_time': datetime.now().isoformat()
         }

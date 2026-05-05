@@ -49,8 +49,7 @@ class InsiderThreatDetectionSystem:
         if self.verbose:
             print(message)
     
-    def stage_1_data_ingestion(self, n_users: int = 200, n_days: int = 100, 
-                               malicious_ratio: float = 0.05):
+    def stage_1_data_ingestion(self):
         """Stage 1: Data Ingestion & Parsing (Days 1-5)"""
         self.log("\n" + "="*80)
         self.log("STAGE 1: DATA INGESTION & PARSING (Days 1-5)")
@@ -155,29 +154,38 @@ class InsiderThreatDetectionSystem:
         
     #     return evasion_results
     def stage_5_adversarial_evasion(self, intensity: float = 0.7):
+        """Stage 5: Adversarial Evasion Engine (Days 21-26)"""
+
         self.log("\n" + "="*80)
         self.log("STAGE 5: ADVERSARIAL EVASION ENGINE (Days 21-26)")
         self.log("="*80)
 
+        # Initialize evasion engine
         self.evasion_engine = AdversarialEvasionEngine()
         simulator = EvasionSimulator(self.baseline_ueba, self.evasion_engine)
-    
+
         feature_indices = list(range(len(self.feature_cols)))
 
-        # ✅ STEP 1: Always compute malicious indices from labels
-        malicious_indices = np.where(self.y == 1)[0]
+        # ✅ STEP 1: Get malicious record indices (NOT users)
+        malicious_indices = np.where(self.y == 1)[0].astype(int)
 
-        # ✅ STEP 2: FORCE consistency (important fix)
-        malicious_indices = malicious_indices.astype(int)
+        # ✅ STEP 2: DEBUG CHECKS (important for correctness)
+        print("Total records:", len(self.y))
+        print("Malicious count:", int(np.sum(self.y)))
+        print("Malicious indices count:", len(malicious_indices))
 
-        # ✅ STEP 3: HARD CHECK (prevents silent failure)
+        # ✅ STEP 3: HARD CHECK
         if len(malicious_indices) == 0:
             self.log("[❌ ERROR] No malicious samples found — evasion cannot run")
             return None
-        else:
-            self.log(f"[✔] Malicious samples for evasion: {len(malicious_indices)}")
 
-        # ✅ STEP 4: PASS CLEAN COPIES (avoids mutation bugs)
+        self.log(f"[✔] Malicious samples for evasion: {len(malicious_indices)}")
+
+        # ✅ STEP 4: Ensure all arrays are aligned
+        assert len(self.X) == len(self.y) == len(self.users) == len(self.dates), \
+            "[ERROR] Data alignment mismatch between X, y, users, dates"
+
+        # ✅ STEP 5: Run evasion simulation (correct inputs)
         evasion_results = simulator.simulate_evasion_impact(
             self.X.copy(),
             self.y.copy(),
@@ -186,10 +194,29 @@ class InsiderThreatDetectionSystem:
             malicious_indices,
             feature_indices
         )
-    
+
+        # ✅ STEP 6: Validate output
+        if evasion_results is None or len(evasion_results) == 0:
+            self.log("[❌ ERROR] Evasion simulation returned empty results")
+            return None
+
+        # Convert to DataFrame if needed
+        if not isinstance(evasion_results, pd.DataFrame):
+            evasion_results = pd.DataFrame(evasion_results)
+
+        # Fix NaN values (important)
+        evasion_results = evasion_results.fillna(0)
+
+        # Ensure numeric safety
+        if 'detection_rate' in evasion_results.columns:
+            evasion_results['detection_rate'] = evasion_results['detection_rate'].astype(float)
+
+        if 'mean_score' in evasion_results.columns:
+            evasion_results['mean_score'] = evasion_results['mean_score'].astype(float)
+
         self.log(f"\n[+] Evasion Simulation Results:")
         print(evasion_results.to_string(index=False))
-    
+
         return evasion_results
     
     def stage_6_meta_feature_extraction(self):
@@ -302,7 +329,7 @@ class InsiderThreatDetectionSystem:
         self.log(f"{'='*80}")
         
         # Execute all stages
-        self.stage_1_data_ingestion(n_users=n_users, n_days=n_days)
+        self.stage_1_data_ingestion()
         self.stage_2_feature_engineering()
         self.stage_3_baseline_ueba(epochs=20)
         baseline_metrics = self.stage_4_baseline_evaluation()
@@ -339,7 +366,10 @@ class InsiderThreatDetectionSystem:
         self.log(f"    ROC-AUC: {baseline_metrics['roc_auc']:.4f}")
         
         self.log(f"\n[AFTER EVASION SIMULATION]")
-        avg_detection_rate = evasion_results['detection_rate'].mean()
+        if evasion_results is not None and len(evasion_results) > 0:
+            avg_detection_rate = evasion_results['detection_rate'].mean()
+        else:
+            avg_detection_rate = 0.0
         self.log(f"    Average Detection Rate: {avg_detection_rate * 100:.2f}%")
         self.log(f"    Degradation: {(1 - avg_detection_rate) * 100:.2f}%")
         
@@ -360,7 +390,7 @@ class InsiderThreatDetectionSystem:
         self.log(f"    Critical/High Risk: {len([a for a in self.detection_api.alerts if a['risk_level'] in ['CRITICAL', 'HIGH']])}")
         
         self.log(f"\n[DEPLOYMENT]")
-        self.log(f"    Alerts Export: /home/claude/insider_threat_detection/alerts_export.json")
+        self.log(f"    Alerts Export:alerts_export.json")
         self.log(f"    React Dashboard: Available in react_dashboard.jsx")
         self.log(f"    Optional FastAPI: Can be added with 'pip install fastapi uvicorn'")
         self.log(f"    Then run: python -m uvicorn backend_api:app --host 0.0.0.0 --port 8000")
@@ -375,7 +405,7 @@ def main():
     system = InsiderThreatDetectionSystem(verbose=True)
     
     # Run complete pipeline
-    results = system.run_complete_pipeline(n_users=200, n_days=100)
+    results = system.run_complete_pipeline()
     
     # Save results to file
     results_summary = {
